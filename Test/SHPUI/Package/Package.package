@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="c6f20f39-477a-4b81-9529-d7d2dea52a7d" 
+        solutionId="c6f20f39-477a-4b81-9529-d7d2dea52a7d" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SHPUI"
+        sharePointProductVersion="15.0">
+</package>

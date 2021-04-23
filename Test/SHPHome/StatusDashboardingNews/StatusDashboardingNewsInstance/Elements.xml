@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Статус Объявлений" OnQuickLaunch="TRUE" TemplateType="10003" Url="Lists/StatusDashboardingNews" Description="Мой экземпляр списка" Hidden="FALSE">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Активные</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">На модерации</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

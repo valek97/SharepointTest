@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Категория объявлений" OnQuickLaunch="TRUE" TemplateType="10002" Url="Lists/CategoriesNews" Description="Мой экземпляр списка" Hidden="FALSE">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Сдам в аренду</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Отдам бесплатно</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Продам</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Куплю</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

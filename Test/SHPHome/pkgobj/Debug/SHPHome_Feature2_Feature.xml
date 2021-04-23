@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="c3a6702c-28a3-4f37-b206-313cf409abad" Scope="Web" Title="SHPHome Feature2">
+  <ElementManifests>
+    <ElementManifest Location="CategoriesNewsInstance\Elements.xml" />
+    <ElementManifest Location="CategoriesNews\Elements.xml" />
+    <ElementFile Location="CategoriesNews\Schema.xml" />
+    <ElementManifest Location="BoardingNewsInstance\Elements.xml" />
+    <ElementManifest Location="BoardingNews\Elements.xml" />
+    <ElementFile Location="BoardingNews\Schema.xml" />
+    <ElementManifest Location="StatusDashboardingNews\Elements.xml" />
+    <ElementFile Location="StatusDashboardingNews\Schema.xml" />
+    <ElementManifest Location="StatusDashboardingNewsInstance\Elements.xml" />
+    <ElementManifest Location="Users\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="de69c471-8a37-4aa6-af80-142888f1ebdd" 
+        solutionId="de69c471-8a37-4aa6-af80-142888f1ebdd" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SHPLogic"
+        sharePointProductVersion="15.0">
+</package>
