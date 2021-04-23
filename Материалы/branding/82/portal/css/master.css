@@ -1,0 +1,634 @@
+﻿.aside-box .list .img img, 
+.ico img,
+.ms-res-ctn.dropdown-menu img,
+.depar-item img,
+#userpic{
+	border-radius:50%;
+}
+.owl-item .date{
+	text-shadow: 2px 2px 2px #000000;
+}
+.owl-item .name a{
+	text-shadow: 2px 2px 6px #000000;
+}
+div.big-gallary div{
+	box-sizing: content-box !important;
+}
+.fresh-list  .name{
+    overflow: hidden;
+    height: 7.5ex;
+}
+.ms-promlink-button.ms-promlink-button-enabled {
+	position: relative;
+    top: -2px;
+    border: 0 !important;
+}
+.ms-webpart-zone {
+	display: block !important;
+}
+.aside-box.golos-box label{
+    font-weight:400;
+	  
+}
+.slider-container {
+         width: 880px;
+    }
+
+@media screen and (min-width: 1440px){
+    .slider-container {
+        width: 1020px;
+    }
+}
+    @media (max-width: 1400) and (min-width: 1200px){
+	.slider-container {
+         width: 830px;
+    }
+}
+    
+    @media (max-width: 1100) and (min-width: 992px){
+	.slider-container {
+         width: 704px;
+    }
+}
+    
+    @media (max-width: 900) and (min-width: 768px){
+	.slider-container {
+         width: 536px;
+    }
+}
+    
+
+.search-form input[type='button'] {
+    background: #fff url("../../img/searsh.svg") 50% 50% no-repeat;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.ms-webpartzone-cell{
+	margin:0 !important;
+}
+.sp-peoplepicker-autoFillContainer {
+	z-index: 2 !important;
+}
+input.sp-peoplepicker-editorInput[type=text] {
+	margin-left: 0px !important; 
+}
+.sp-peoplepicker-initialHelpText {
+	top: 10px !important;
+    left: 14px !important;
+}
+div.inp .select-area {
+	width: 127px !important;
+}
+#UserSearchDiv .sp-peoplepicker-topLevel {
+	background-color:transparent !important;
+	padding: 0 !important;
+	border: 0 !important;
+}
+.sep {
+	    margin-top: 30px;
+}
+.tt .ms-menu-althov.ms-welcome-root {
+	height: 20px !important;
+}
+.row-inp .ms-rtestate-write.ms-rteflags-0.ms-rtestate-field{
+    height: 160px !important;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 1px #d8d8d8;
+    padding: 10px;
+    width: 100% !important;
+    display: block;
+    color: #000;
+    font-size: 15px;
+    overflow: auto;
+}
+.fotorama > div {
+	width:100% !important;
+}
+.events-box .news-item .img {
+    margin-bottom: 20px;
+}
+.ms-blog-MainArea {
+	    max-width: 100% !important;
+	    display: inline-table !important;
+}
+.owl-carousel .owl-item img {
+	height:520px;
+}
+.search-user-select {
+	margin-bottom: 15px; 
+	padding: 10px;
+	background : antiquewhite;
+}
+.search-user { 
+	padding: 10px;
+	min-height:200px !important;
+}
+.search-user .depar-item {margin-bottom: 15px !important;}
+
+.search-user-select .depar-item {margin-bottom: 0px !important;}
+.ms-usereditor >tbody > tr > td{
+	    width: 100% !important;
+}
+.searching-form input[type='submit'] {
+	min-width: 20px !important;
+}
+div.crew-search-form div.inp {
+	width: 80% !important;
+}
+.default-form.crew-search-form > .inp > span{
+	display:block !important;
+	position:relative;
+	height: 40px !important;
+}
+.default-form.crew-search-form > .inp > span a[title="Проверить имена"] {
+	    padding-top: 10px;
+    right: 25px;
+    position: absolute;
+}
+.default-form.crew-search-form > .inp > span a[title="Обзор"] {
+	padding-top: 10px;
+    right: 0px;
+    position: absolute;
+
+}
+.fah {
+	max-width:160px;
+}
+.default-form.crew-search-form > .inp > span .ms-inputuserfield.ms-inputBox, .default-form.crew-search-form > .inp > span .ms-usereditor  {
+	height: 40px !important;
+    border-radius: 5px;
+
+    
+}
+.default-form.crew-search-form > .inp > span .ms-inputuserfield.ms-inputBox {
+    background-color: #ffffff;
+border: solid 1px #d8d8d8;
+    padding: 7px 10px;
+    width: 103%;
+    display: block;
+    color: #000;
+}
+.lk-box.lk-box-fix .drop-list {
+	right: auto;
+	width: auto;
+	left: -17px;
+	top: 45px;
+}
+.ms-tableRow {
+width: 100%;
+	display: table !important;
+}
+#UpScopeLinkTop {
+	display:none !important; /*скрытие "Результаты найдены на сайте" на сайте поиска	*/
+}
+
+.ms-ToolPaneOuter {
+    position: relative;
+	z-index: 2;
+}
+
+.toping-box.bg-for-header {
+	padding-left: 8px;
+	width: 99.4vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;  }
+.drop-list span {
+	white-space: nowrap;
+}
+.ms-core-listMenu-horizontalBox .dynamic-children.additional-background {
+	padding-right: 0px !important;
+	background-image: none !important;
+}
+.lk-box-fix {
+	float: inherit !important;
+	width: inherit !important;
+	height: inherit !important;
+	border-radius: inherit!important;
+	box-shadow: inherit!important;
+	padding: inherit!important;
+	background: inherit!important;
+	position: relative!important;
+}
+.btn {
+	display: inline-block;
+	padding: 10px 20px !important;
+	font-size: 15px !important;
+	line-height: 1.33;
+	text-decoration: none;
+	color: #ffffff !important;
+	border-radius: 6px;
+	background-color: #f68c28 !important;
+	vertical-align: top;
+	border: 0px !important;
+}
+.btn-default{	
+	background-color:#bbb !important;
+	background-image:none !important;	
+}
+.subscribe-box .btn{	
+	width:100%;
+}
+#DeltaPlaceHolderMain > .ms-webpartPage-root.ms-core-tableNoSpace > tbody > tr:nth-child(2) > td {
+	
+	display:inline-block !important;
+	float: left; 
+}
+.ms-core-listMenu-horizontalBox li.static > .ms-core-listMenu-item {
+	margin: 0px 30px !important;
+}
+.lk-box.lk-box-fix {
+	height: 45px !important;
+	margin:0px !important;
+}
+.ms-core-menu-box.ms-core-defaultFont.ms-shadow::after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 6px 6px 6px;
+	border-color: transparent transparent #ffffff transparent;
+	position: absolute;
+	right: 50%;
+	margin-right: -6px;
+	top: -6px;
+}
+.section-padding {
+    padding:0 0 30px 0 !important; 
+}
+.nav {
+	padding-bottom: 0px !important;
+}
+.news-box.events-box  .news-item .img img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+.our-life-grid img {
+	width: 79px;
+	height: 79px;
+	object-fit: cover;
+	display: block;
+}
+#SearchBox {
+	float: none !important;
+}
+.row.our-life-grid {
+	padding-right: 45px;
+}
+.ms-core-tableNoSpace.ms-webpartPage-root tr * {
+	box-sizing: border-box !important;
+}
+.ms-webpart-chrome-title span.ms-webpart-controlBox * {
+	box-sizing: content-box !important;
+}
+.ms-siteactions-root > span > a.ms-core-menu-root {
+	display: flex !important;
+}
+.header .ms-qSuggest-container.ms-shadow {
+	display: none !important;
+}
+.header * {
+	#box-sizing: border-box !important;
+}
+a.btn {
+	color: #ffffff !important;
+}
+#ms-help span {
+	display: flex !important;
+}
+.main div {
+	box-sizing: border-box !important;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #fff;
+}
+.js-webpart-menuCell {
+	display: inline-block;
+	top: -5px;
+}
+.ms-webpart-controlBox.ms-webpart-controlBox-hide > span {
+	display: inline-block;
+	width: 20px;
+}
+* {
+	box-sizing: content-box !important;
+}
+#suiteBarButtons {
+	display: contents !important;
+}
+.hide-el{
+	display:none !important;
+}
+#SearchBox div {
+	display: inline-block;
+	vertical-align: middle;
+	width: 663px;
+	height: 50px;
+	background: #fff;
+	border: solid 1px #d8d8d8;
+	padding-right: 48px;
+	position: relative;
+}
+.linkbutton {
+        background: none!important;
+    border: none !important;
+    padding: 0!important;
+    font: inherit !important;
+    cursor: pointer;
+    margin: 0px !important;
+    color: #596066 !important;
+    }
+#SearchBox div #SearchBox div {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	background: none;
+	font-size: 15px;
+	color: #000;
+	display: block;
+	padding: 0 10px;
+	outline: 0;
+}
+.ms-siteactions-root > span > a.ms-core-menu-root {
+	padding: 12px 5px 5px 12px !important;
+}
+#DeltaPlaceHolderSearchArea {
+	padding: 0px !important;
+	width: 100% !important;
+}
+input[type=submit] {
+	min-width: 4em !important;
+}
+img {
+	max-width: none;
+	width: auto;
+}
+* [class^="span"] img {
+	max-width: 100%;
+}
+#scriptWPQ2 img, img.ms-webpart-menuArrowImg, #applist img {
+	width: auto;
+	max-width: none;
+}
+/* Скрытие блока "изменить ссылки" */
+.nav ul.root.ms-core-listMenu-root > li:last-child {
+	display: none;
+}
+.ms-siteactions-imgspan {
+	float: none;
+	margin: 0px;
+}
+#s4-ribbonrow [class*="span"] {
+	float: none;
+	margin-left: 0px;
+	line-height: 1.2em;
+}
+input.ms-cui-cb-input {
+	height: 14px;
+	padding: 3px 7px 2px;
+}
+select, input[type="file"] {
+	height: auto;
+	line-height: 20px;
+}
+label {
+	display: inline-block;
+	margin-bottom: 0px;
+}
+#PhotoWidget .row.our-life-grid {
+	padding-right: 0px;
+}
+#DeltaPlaceHolderMain>.ms-core-tableNoSpace.ms-webpartPage-root>tbody> tr:nth-child(2)>td:nth-child(2) {
+				background-color: #fff;
+				padding: 30px;
+			}
+.download-images img{
+	height:62px;
+}
+.ms-welcome-hover, .ms-siteactions-hover {
+	background-color: transparent !important;
+	border-right-color: transparent !important;
+}
+span.ms-welcome-root span.ms-core-menu-arrow {
+	display: none !important;
+}
+span.ms-menu-althov.ms-welcome-root, span.ms-welcome-hover {
+	line-height: 1.2 !important;
+	padding: 0 !important;
+}
+.name span div.ms-core-menu-box.ms-core-defaultFont.ms-shadow {
+	padding: 10px !important;
+	width: 238px !important;
+	top: 26px !important;
+	left: -64px !important;
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.13);
+	border-radius: 5px;
+	background-color: #fff;
+	z-index: 3;
+}
+.lk-box .name span > a {
+	color: #ffffff !important;
+	line-height: 1.2 !important;
+}
+.lk-box {
+	box-sizing: border-box !important;
+}
+#DeltaSuiteBarRight {
+	float: left !important;
+}
+#siteIcon {
+	margin: 0 35px 0 0 !important;
+	height: 50px !important;
+}
+@media 
+{
+#siteIcon {
+	margin: 0 15px 0 0 !important;
+}
+}
+.search-form {
+	box-sizing: border-box !important;
+}
+#searchInputBox {
+	width: 100%;
+}
+div.tt a.ms-core-menu-link {
+	padding: 0px !important;
+}
+div.tt span div ul.ms-core-menu-list li {
+	margin-bottom: 10px;
+}
+div.tt span div ul.ms-core-menu-list li a {
+	color: #000;
+	font-size: 15px;
+	text-decoration: none;
+}
+div.tt span div ul.ms-core-menu-list li:last-child {
+	margin-bottom: 0px;
+}
+.ms-srch-sb > input {
+	margin: 0px !important;
+}
+.lk-box .drop-list li {
+	display: block;
+	margin-bottom: 10px;
+}
+#InputSearchButton {
+	min-width: 48px !important;
+}
+.lk-box .ms-core-menu-box {
+	box-sizing: border-box !important;
+	position: absolute !important;
+	padding: 20px !important;
+	width: 258px !important;
+	position: absolute;
+	top: 25px !important;
+	left: -62px !important;
+	box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.13);
+	border-radius: 5px;
+	background-color: #fff;
+	z-index: 3;
+	max-width: 258px !important;
+				/* display: none; */
+}
+#suiteBarRight {
+	background-color: #f68c28 !important;
+	color: #f68c28 !important;
+	padding-right: 0 !important;
+}
+#titleAreaBox {
+	margin: auto !important;
+	box-sizing: border-box !important;
+}
+#SearchBox div {
+	width: 100%;
+	border: 0 transparent !important;
+	background-color: transparent !important;
+}
+#DeltaSuiteBarRight {
+	float: right;
+}
+.logo img{
+	
+	width:100%;
+}
+.nav li a {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0 transparent;
+	color: #000 !important;
+	font-family: "Roboto", sans-serif !important;
+}
+#titlerow {
+	background-color: #fff !important;
+}
+#s4-titlerow{	
+	height:auto;
+}
+@media 
+{
+*::-ms-backdrop, .ms-siteactions-root > span > a.ms-core-menu-root {
+	top: 3px;
+	position: relative;
+}
+*::-ms-backdrop, .ms-siteactions-root > span > a.ms-core-menu-root {
+	padding: 10px 5px 5px 12px !important;
+}
+}
+.search-form a {
+	display: none;
+}
+ul.dynamic {
+	width: 220px !important;
+}
+ul.dynamic li:first-child {
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+ul.dynamic li {
+	padding-bottom: 15px;
+	display: block;
+}
+li.dynamic span.menu-item-text {
+	line-height: 1.3em;
+	font-size: 13px;
+}
+.tt > span > a {
+	color: #fff !important;
+}
+#pageContentTitle {
+	display: none;
+}
+div.thank_input span span tr td {
+	padding: 0px !important;
+}
+.thank_input > span, .thank_input > table {
+	display: inline-block;
+}
+#DeltaPlaceHolderMain > .ms-core-tableNoSpace.ms-webpartPage-root > tbody > tr:nth-child(2) > td{
+	display:inline-block;
+}
+.thanks-from.default- > table {
+	display: inline;
+	width: auto;
+	top: -2px;
+	position: relative;
+}
+.thanks-from .inp {
+	width: auto !important;
+}
+.thanks-from.default-form > div > .thank_input > table {
+}
+.thank_input > span > span > table > tbody > tr:first-child > td:nth-child(2) {
+	
+	padding-top: 10px !important;
+}
+#ctl00_ctl36_g_e88d12b1_f019_4781_90d9_8cdd25d47a8f_ff11_ctl00_ctl00_UserField_upLevelDiv {
+	height: 40px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border: solid 1px #d8d8d8;
+	padding: 10px;
+	width: 100%;
+	display: block;
+	color: #000;
+	font-size: 15px;
+}
+.main-inner{
+	
+	
+}
+#contentBox{
+	
+	margin:0;
+}
+#sideNavBox{
+	
+	width:auto;
+	margin:0;
+}
+#s4-bodyContainer{
+	
+	padding-bottom:0px;
+}
+.footer{
+	margin-top:20px;
+	border-top:1px solid gray;
+}
+.footer .wrap{
+	padding: 20px 0;
+	border:none !important;
+}
+#DeltaSuiteBarRight{
+	
+	box-sizing:content-box !important;
+}
