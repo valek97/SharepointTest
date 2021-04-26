@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-  <!-- Родительский тип контента: Системный (0x) -->
-  <ContentType ID="0x00FAF7DDD04F434FF4ADF4C99AC098C92C" Name="Users" Group="Другие типы контента" Description="Мой тип контента" Inherits="TRUE" Version="0">
-    <FieldRefs>
-      <FieldRef ID="{246D0907-637C-46b7-9AA0-0BB914DAA832}" DisplayName="$Resources:core,Author;" Description="$Resources:core,_AuthorDesc;" Name="_Author" Sealed="TRUE" ShowInFileDlg="FALSE" />
-    </FieldRefs>
-  </ContentType>
-</Elements>

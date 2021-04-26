@@ -81,9 +81,6 @@
     <None Include="StatusDashboardingNews\StatusDashboardingNewsInstance\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{c7269daf-cf40-49bb-be9f-6bc2c8de0e3d}</SharePointProjectItemId>
     </None>
-    <None Include="Users\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{279b558b-cd5e-4cfc-9de2-ee9e52403864}</SharePointProjectItemId>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="BoardingNews\BoardingNewsInstance\Elements.xml" />
@@ -98,7 +95,6 @@
     <Content Include="StatusDashboardingNews\Elements.xml" />
     <Content Include="StatusDashboardingNews\Schema.xml" />
     <Content Include="StatusDashboardingNews\StatusDashboardingNewsInstance\Elements.xml" />
-    <Content Include="Users\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

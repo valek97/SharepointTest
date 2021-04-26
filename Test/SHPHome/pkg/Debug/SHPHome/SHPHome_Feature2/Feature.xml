@@ -10,6 +10,5 @@
     <ElementManifest Location="StatusDashboardingNews\Elements.xml" />
     <ElementFile Location="StatusDashboardingNews\Schema.xml" />
     <ElementManifest Location="StatusDashboardingNewsInstance\Elements.xml" />
-    <ElementManifest Location="Users\Elements.xml" />
   </ElementManifests>
 </Feature>
