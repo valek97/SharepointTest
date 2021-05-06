@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="de69c471-8a37-4aa6-af80-142888f1ebdd" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SHPLogic.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+</Solution>

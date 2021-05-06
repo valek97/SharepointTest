@@ -165,7 +165,6 @@ C:\SharepointTest\Test\SHPHome\bin\Debug\ko\System.Spatial.resources.dll
 C:\SharepointTest\Test\SHPHome\bin\Debug\ru\System.Spatial.resources.dll
 C:\SharepointTest\Test\SHPHome\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\SharepointTest\Test\SHPHome\bin\Debug\zh-Hant\System.Spatial.resources.dll
-C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.csprojAssemblyReference.cache
 C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.csproj.CoreCompileInputs.cache
 C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.csproj.CopyComplete
 C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.dll

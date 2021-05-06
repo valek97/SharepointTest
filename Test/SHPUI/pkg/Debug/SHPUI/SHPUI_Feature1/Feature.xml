@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="1db0f894-62f0-4f1c-9050-3990f874894d" Scope="Site" Title="SHPUI Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Ads_Admins\Elements.xml" />
+    <ElementFile Location="Ads_Admins\BorderNews.webpart" />
+    <ElementManifest Location="Edit\Elements.xml" />
+    <ElementFile Location="Edit\CreateEditBoardingNews.webpart" />
+    <ElementManifest Location="Add\Elements.xml" />
+    <ElementFile Location="Add\Add.webpart" />
+    <ElementManifest Location="Add-admin\Elements.xml" />
+    <ElementFile Location="Add-admin\Add-admin.webpart" />
+    <ElementManifest Location="Ads\Elements.xml" />
+    <ElementFile Location="Ads\Ads.webpart" />
+    <ElementManifest Location="Edit-admin\Elements.xml" />
+    <ElementFile Location="Edit-admin\Edit-admin.webpart" />
+    <ElementManifest Location="My-Add\Elements.xml" />
+    <ElementFile Location="My-Add\My-Add.webpart" />
+  </ElementManifests>
+</Feature>

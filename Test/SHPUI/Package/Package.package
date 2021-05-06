@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<package dslVersion="1.0.0.0" 
-        Id="c6f20f39-477a-4b81-9529-d7d2dea52a7d" 
-        solutionId="c6f20f39-477a-4b81-9529-d7d2dea52a7d" 
-        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
-        name="SHPUI"
-        sharePointProductVersion="15.0">
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="c6f20f39-477a-4b81-9529-d7d2dea52a7d" solutionId="c6f20f39-477a-4b81-9529-d7d2dea52a7d" resetWebServer="false" sharePointProductVersion="15.0" name="SHPUI" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e946c06c-6956-4bce-af74-eff2fbf6f283" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="53402ff3-188c-487e-ae6d-5ce2dbab521d" />
+  </projectItems>
 </package>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="Ads" List="113" Url="_catalogs/wp">
+    <File Path="Ads\Ads.webpart" Url="SHPUI_Ads.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Veb News" />
+    </File>
+  </Module>
+</Elements>

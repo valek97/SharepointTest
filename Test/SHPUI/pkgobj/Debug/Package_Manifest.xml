@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="c6f20f39-477a-4b81-9529-d7d2dea52a7d" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SHPUI.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.BorderNews" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.CreateEditBoardingNews" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Add" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Add_admin" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Ads" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Edit_admin" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.My_Add" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\SHPUI\JS\Ads-admin\Ads-Admin.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="SHPUI_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
