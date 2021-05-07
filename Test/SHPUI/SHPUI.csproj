@@ -70,6 +70,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Add.ascx</DependentUpon>
     </Compile>
+    <Compile Include="AdsAdmins\AdsAdmins.ascx.cs">
+      <DependentUpon>AdsAdmins.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AdsAdmins\AdsAdmins.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdsAdmins.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Ads\Ads.ascx.cs">
       <DependentUpon>Ads.ascx</DependentUpon>
     </Compile>
@@ -77,14 +85,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Ads.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Ads_Admins\BorderNews.ascx.cs">
-      <DependentUpon>BorderNews.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Ads_Admins\BorderNews.ascx.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>BorderNews.ascx</DependentUpon>
     </Compile>
     <Compile Include="Edit-admin\Edit-admin.ascx.cs">
       <DependentUpon>Edit-admin.ascx</DependentUpon>
@@ -121,13 +121,13 @@
     <None Include="Add\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{2cf5f04d-4023-43ff-be90-e1e225799632}</SharePointProjectItemId>
     </None>
+    <None Include="AdsAdmins\AdsAdmins.webpart" />
+    <None Include="AdsAdmins\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aee6b943-6c52-4227-9b6b-5b0de7a2b08d}</SharePointProjectItemId>
+    </None>
     <None Include="Ads\Ads.webpart" />
     <None Include="Ads\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{031695ee-fe67-4e39-a82e-738812f289dc}</SharePointProjectItemId>
-    </None>
-    <None Include="Ads_Admins\BorderNews.webpart" />
-    <None Include="Ads_Admins\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{440de3ff-61e7-4bac-889c-b580ad050736}</SharePointProjectItemId>
     </None>
     <None Include="Edit-admin\Edit-admin.webpart" />
     <None Include="Edit-admin\SharePointProjectItem.spdata">
@@ -157,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Layouts\SHPUI\CSS\" />
+    <Folder Include="Layouts\SHPUI\JS\Billboard\Bulleten\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Add-admin\Add-admin.ascx">
@@ -169,16 +170,16 @@
       <LastGenOutput>Add.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="Add\Elements.xml" />
+    <Content Include="AdsAdmins\AdsAdmins.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>AdsAdmins.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="AdsAdmins\Elements.xml" />
     <Content Include="Ads\Ads.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>Ads.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="Ads\Elements.xml" />
-    <Content Include="Ads_Admins\BorderNews.ascx">
-      <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>BorderNews.ascx.g.cs</LastGenOutput>
-    </Content>
-    <Content Include="Ads_Admins\Elements.xml" />
     <Content Include="Edit-admin\Edit-admin.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>Edit-admin.ascx.g.cs</LastGenOutput>
@@ -193,6 +194,14 @@
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
     <Content Include="Layouts\SHPUI\JS\Ads-admin\Ads-Admin.js" />
+    <Content Include="Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardAdmin.js" />
+    <Content Include="Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardDefault.js" />
+    <Content Include="Layouts\SHPUI\JS\EditBilboard\RightPanel\BoardingModeration.js" />
+    <Content Include="Layouts\SHPUI\JS\EditBilboard\RightPanel\PanelDefault.js" />
+    <Content Include="Layouts\SHPUI\JS\NewsText\BodyAdd\BodyAdd.js" />
+    <Content Include="Layouts\SHPUI\JS\NewsText\RightBanner\BannerDefault.js" />
+    <Content Include="Layouts\SHPUI\JS\NewsText\RightBanner\RightBannerOnModeration.js" />
+    <Content Include="Layouts\SHPUI\JS\NewsText\RightBanner\RightBunnerPublicationNews.js" />
     <Content Include="My-Add\Elements.xml" />
     <Content Include="My-Add\My-Add.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>

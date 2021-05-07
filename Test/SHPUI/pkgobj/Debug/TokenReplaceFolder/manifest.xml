@@ -3,18 +3,26 @@
   <Assemblies>
     <Assembly Location="SHPUI.dll" DeploymentTarget="GlobalAssemblyCache">
       <SafeControls>
-        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.BorderNews" TypeName="*" />
         <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.CreateEditBoardingNews" TypeName="*" />
         <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Add" TypeName="*" />
         <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Add_admin" TypeName="*" />
         <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Ads" TypeName="*" />
         <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.Edit_admin" TypeName="*" />
         <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.My_Add" TypeName="*" />
+        <SafeControl Assembly="SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" Namespace="SHPUI.AdsAdmins" TypeName="*" />
       </SafeControls>
     </Assembly>
   </Assemblies>
   <TemplateFiles>
     <TemplateFile Location="Layouts\SHPUI\JS\Ads-admin\Ads-Admin.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardAdmin.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardDefault.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\EditBilboard\RightPanel\BoardingModeration.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\EditBilboard\RightPanel\PanelDefault.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\NewsText\BodyAdd\BodyAdd.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\NewsText\RightBanner\BannerDefault.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\NewsText\RightBanner\RightBannerOnModeration.js" />
+    <TemplateFile Location="Layouts\SHPUI\JS\NewsText\RightBanner\RightBunnerPublicationNews.js" />
   </TemplateFiles>
   <FeatureManifests>
     <FeatureManifest Location="SHPUI_Feature1\Feature.xml" />

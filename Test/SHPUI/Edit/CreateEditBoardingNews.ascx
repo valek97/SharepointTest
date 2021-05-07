@@ -29,6 +29,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/main.css">
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/media.css">
+    <script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>    
+    <script src="C:\SharepointTest\Test\SHPUI\Layouts\SHPUI\JS\EditBilboard\RightPanel\BoardingModeration.js"></script>
 </head>
 
 <body>
@@ -104,7 +106,7 @@
             </div>
             <div class="container">
                 <div class="two-columns">
-                    <div class="row">
+                    <div class="row" id ="RightPanel">
                         <div class="col-md-9 col-sm-12">
                             <div class="content-box">
 
@@ -139,17 +141,6 @@
                                     </form>
                                 </div>
 
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-12">
-                            <div class="aside aside-moved-top">
-                                <div class="aside-box news-archive">
-                                    <div class="aside-title title">Объявление опубликовано</div>
-                                    <ul class="month-list">
-                                        <li><a href="">В архив</a></li>
-                                        <li><a href="">Удалить</a></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>

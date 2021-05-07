@@ -2,17 +2,17 @@
 using System.ComponentModel;
 using System.Web.UI.WebControls.WebParts;
 
-namespace SHPUI.BorderNews
+namespace SHPUI.AdsAdmins
 {
     [ToolboxItemAttribute(false)]
-    public partial class BorderNews : WebPart
+    public partial class AdsAdmins : WebPart
     {
         // Раскомментируйте следующий атрибут SecurityPermission только при профилировании производительности в решении фермы
         // с использованием метода инструментирования, после чего удалите атрибут SecurityPermission, когда код будет готов
         // к работе. Поскольку атрибут SecurityPermission позволяет обойти проверку безопасности для объектов, вызывающих
         // ваш конструктор, не рекомендуется использовать его в рабочей среде.
         // [System.Security.Permissions.SecurityPermission(System.Security.Permissions.SecurityAction.Assert, UnmanagedCode = true)]
-        public BorderNews()
+        public AdsAdmins()
         {
         }
 

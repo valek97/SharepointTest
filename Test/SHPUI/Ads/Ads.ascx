@@ -27,7 +27,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/main.css">
 	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/media.css">
-
+	<script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>    
+    <script src="C:\SharepointTest\Test\SHPUI\Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardAdmin.js"></script>
 </head>
 
 <body>
@@ -73,30 +74,7 @@
 		</div>
 	</div>
 	<div class="main bg-white">
-		<div class="toping-box">
-			<div class="container">
-				<ul class="pagin">
-					<li><a href="">Главная</a></li>
-					<li><a href="">Кредитный департамент</a></li>
-					<li><a href="">Отдел прогназирования спроса</a></li>
-				</ul>
-				<div class="title">Доска объявлений</div>
- 				<form action="" class="thanks-from default-form cat-form">
-					<div class="inp">
-						<p class="label">Категории</p>
-						<select>
-							<option value="">Любая</option>
-							<option value="">Любая</option>
-						</select>
-					</div>
-					<div class="ch">
-						<input type="checkbox" id="c1">
-						<label for="c1">Мои объявления</label>
-					</div>
-					<input class="btn" type="submit" value="+ Добавить объявлени">
-				</form>
-			</div>
-		</div>
+		
 		<div class="container">
 			<div class="two-columns">
 				<div class="row">

@@ -2,13 +2,13 @@
 <webParts>
   <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
     <metaData>
-      <type name="SHPUI.BorderNews.BorderNews, SHPUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ce5dbb4eaab36c94" />
+      <type name="SHPUI.AdsAdmins.AdsAdmins, $SharePoint.Project.AssemblyFullName$" />
       <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
     </metaData>
     <data>
       <properties>
         <property name="Title" type="string"></property>
-        <property name="Description" type="string">My web part</property>
+        <property name="Description" type="string">Моя визуальная веб-часть</property>
       </properties>
     </data>
   </webPart>

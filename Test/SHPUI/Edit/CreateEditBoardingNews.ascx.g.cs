@@ -64,185 +64,179 @@ namespace SHPUI.CreateEditBoardingNews {
                         "pis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext\" " +
                         "rel=\"stylesheet\">\r\n    <link rel=\"stylesheet\" href=\"http://sp-sql/sites/Home/Ver" +
                         "stka/css/main.css\">\r\n    <link rel=\"stylesheet\" href=\"http://sp-sql/sites/Home/V" +
-                        "erstka/css/media.css\">\r\n</head>\r\n\r\n<body>\r\n    <div id=\"wrapper\">\r\n        <div " +
-                        "class=\"header\">\r\n            <div class=\"container\">\r\n                <div class" +
-                        "=\"top-line\">\r\n                    <div class=\"logo\"><a href=\"\">\r\n               " +
-                        "         <img src=\"img/logo.svg\" alt=\"\"></a></div>\r\n                    <form ac" +
-                        "tion=\"\" class=\"search-form\">\r\n                        <input type=\"text\" placeho" +
-                        "lder=\"Поиск\">\r\n                        <input type=\"submit\" value=\"\">\r\n         " +
-                        "           </form>\r\n                    <div id=\"suiteBarButtons\">\r\n\t\t\t\t\t   <spa" +
-                        "n class=\"ms-siteactions-root\" id=\"siteactiontd\">\r\n\t\t\t\t\t   \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<span " +
-                        "style=\"display: none;\"><menu id=\"zz5_SiteActionsMenuMain\" type=\"ServerMenu\" hide" +
-                        "icons=\"true\"><ie:menuitem id=\"zz6_MenuItem_ShareThisSite\" type=\"option\" menugrou" +
-                        "pid=\"100\" description=\"Посмотреть, кто здесь находится, и пригласить новых участ" +
-                        "ников.\" text=\"Совместно с...\" onmenuclick=\"EnsureScriptFunc(\'sharing.js\', \'Displ" +
-                        "aySharedWithDialog\', function () { DisplaySharedWithDialog(\'\\u002fsites\\u002fHom" +
-                        "e\\u002f\'); })\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"EnsureScript" +
-                        "Func(\'sharing.js\', \'DisplaySharedWithDialog\', function () { DisplaySharedWithDia" +
-                        "log(\'\\u002fsites\\u002fHome\\u002f\'); })\" text_Original=\"Совместно с...\" descripti" +
-                        "on_Original=\"Посмотреть, кто здесь находится, и пригласить новых участников.\" va" +
-                        "lOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"ctl00_SiteActionsMenuMain_ct" +
-                        "l00_MenuItem_EditPage\" type=\"option\" menugroupid=\"200\" description=\"Изменение ко" +
-                        "нтента этой страницы.\" text=\"Изменение страницы\" onmenuclick=\"window.location = " +
-                        "\'javascript:{EnsureScriptParams(\\\'ribbon\\\', \\\'ChangeWikiPageMode\\\', true);}\';\" i" +
-                        "consrc=\"/_layouts/15/images/ActionsEditPage.png?rev=23\" checked=\"false\" enabled=" +
-                        "\"true\" onMenuClick_Original=\"window.location = \'javascript:{EnsureScriptParams(\\" +
-                        "\'ribbon\\\', \\\'ChangeWikiPageMode\\\', true);}\';\" text_Original=\"Изменение страницы\"" +
-                        " description_Original=\"Изменение контента этой страницы.\" valOrig=\"&#10;&#9;\"></" +
-                        "ie:menuitem>\r\n\t<ie:menuitem id=\"zz7_MenuItem_CreatePage\" type=\"option\" menugroup" +
-                        "id=\"200\" description=\"Создание страницы, которую можно настроить.\" text=\"Добавле" +
-                        "ние страницы\" onmenuclick=\"OpenCreateWebPageDialog(\'\\u002fsites\\u002fHome\\u002f_" +
-                        "layouts\\u002f15\\u002fcreatewebpage.aspx\')\" iconsrc=\"/_layouts/15/images/NewConte" +
-                        "ntPageHH.png?rev=23\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"OpenCr" +
-                        "eateWebPageDialog(\'\\u002fsites\\u002fHome\\u002f_layouts\\u002f15\\u002fcreatewebpag" +
-                        "e.aspx\')\" text_Original=\"Добавление страницы\" description_Original=\"Создание стр" +
-                        "аницы, которую можно настроить.\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuit" +
-                        "em id=\"zz8_MenuItem_Create\" type=\"option\" menugroupid=\"200\" description=\"Создани" +
-                        "е других типов страниц, списков, библиотек и сайтов.\" text=\"Добавить приложение\"" +
-                        " onmenuclick=\"GoToPage(\'\\u002fsites\\u002fHome\\u002f_layouts\\u002f15\\u002faddanap" +
-                        "p.aspx\')\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"GoToPage(\'\\u002fs" +
-                        "ites\\u002fHome\\u002f_layouts\\u002f15\\u002faddanapp.aspx\')\" text_Original=\"Добави" +
-                        "ть приложение\" description_Original=\"Создание других типов страниц, списков, биб" +
-                        "лиотек и сайтов.\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz9_Menu" +
-                        "Item_ViewAllSiteContents\" type=\"option\" menugroupid=\"200\" description=\"Просмотр " +
-                        "всех библиотек и списков на данном сайте.\" text=\"Контент сайта\" onmenuclick=\"STS" +
-                        "Navigate2(event,\'/sites/Home/_layouts/15/viewlsts.aspx\');\" iconsrc=\"/_layouts/15" +
-                        "/images/allcontent32.png?rev=23\" checked=\"false\" enabled=\"true\" onMenuClick_Orig" +
-                        "inal=\"STSNavigate2(event,\'/sites/Home/_layouts/15/viewlsts.aspx\');\" text_Origina" +
-                        "l=\"Контент сайта\" description_Original=\"Просмотр всех библиотек и списков на дан" +
-                        "ном сайте.\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz10_MenuItem_" +
-                        "ChangeTheLook\" type=\"option\" menugroupid=\"300\" description=\"Измените внешний вид" +
-                        " сайта\" text=\"Изменение оформления\" onmenuclick=\"STSNavigate2(event,\'/sites/Home" +
-                        "/_layouts/15/designgallery.aspx\');\" checked=\"false\" enabled=\"true\" onMenuClick_O" +
-                        "riginal=\"STSNavigate2(event,\'/sites/Home/_layouts/15/designgallery.aspx\');\" text" +
-                        "_Original=\"Изменение оформления\" description_Original=\"Измените внешний вид сайт" +
-                        "а\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz11_MenuItem_Settings\"" +
-                        " type=\"option\" menugroupid=\"300\" description=\"Доступ ко всем параметрам этого са" +
-                        "йта.\" text=\"Параметры сайта\" onmenuclick=\"GoToPage(\'\\u002fsites\\u002fHome\\u002f_" +
-                        "layouts\\u002f15\\u002fsettings.aspx\')\" iconsrc=\"/_layouts/15/images/settingsIcon." +
-                        "png?rev=23\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"GoToPage(\'\\u002" +
-                        "fsites\\u002fHome\\u002f_layouts\\u002f15\\u002fsettings.aspx\')\" text_Original=\"Пара" +
-                        "метры сайта\" description_Original=\"Доступ ко всем параметрам этого сайта.\" valOr" +
-                        "ig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"ctl00_SiteActionsMenuMain_ctl00" +
-                        "_ctl02\" type=\"option\" menugroupid=\"2147483647\" description=\"Начало работы с сайт" +
-                        "ом.\" text=\"Приступая к работе\" onmenuclick=\"STSNavigate2(event,\'/sites/Home/Gett" +
-                        "ingStarted.aspx\');\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"STSNavi" +
-                        "gate2(event,\'/sites/Home/GettingStarted.aspx\');\" text_Original=\"Приступая к рабо" +
-                        "те\" description_Original=\"Начало работы с сайтом.\" valOrig=\"&#10;&#9;\"></ie:menu" +
-                        "item>\r\n\t</menu></span><span title=\"Параметры\" class=\"ms-siteactions-normal\" id=\"" +
-                        "zz12_SiteActionsMenu_t\" onmouseover=\"MMU_PopMenuIfShowing(this);MMU_EcbTableMous" +
-                        "eOverOut(this, true)\" onclick=\" CoreInvoke(\'MMU_Open\',byid(\'zz5_SiteActionsMenuM" +
-                        "ain\'), MMU_GetMenuFromClientId(\'zz12_SiteActionsMenu\'),event,true, null, 0); ret" +
-                        "urn false;\" oncontextmenu=\"ClkElmt(this); return false;\" foa=\"MMU_GetMenuFromCli" +
-                        "entId(\'zz12_SiteActionsMenu\')\" hoverinactive=\"ms-siteactions-normal\" hoveractive" +
-                        "=\"ms-siteactions-normal ms-siteactions-hover\"><a title=\"Параметры\" class=\"ms-cor" +
-                        "e-menu-root\" id=\"zz12_SiteActionsMenu\" accesskey=\"/\" onkeydown=\"MMU_EcbLinkOnKey" +
-                        "Down(byid(\'zz5_SiteActionsMenuMain\'), MMU_GetMenuFromClientId(\'zz12_SiteActionsM" +
-                        "enu\'));\" href=\"javascript:;\" serverclientid=\"zz12_SiteActionsMenu\" menutokenvalu" +
-                        "es=\"MENUCLIENTID=zz12_SiteActionsMenu,TEMPLATECLIENTID=zz5_SiteActionsMenuMain\">" +
-                        "<span class=\"ms-siteactions-imgspan\"><img title=\"Параметры\" class=\"ms-core-menu-" +
-                        "buttonIcon\" alt=\"Параметры\" src=\"/_layouts/15/images/spcommon.png?rev=23\"></span" +
-                        "><span class=\"ms-accessible\">Для открытия меню воспользуйтесь сочетанием клавиш " +
-                        "SHIFT+ВВОД (в новом окне).</span></a></span></span>\r\n<span id=\"ms-help\">\r\n\t<a ti" +
-                        "tle=\"Справка\" id=\"ctl00_TopHelpLink\" accesskey=\"6\" style=\"width: 30px; height: 3" +
-                        "0px; display: inline-block;\" onmouseover=\"this.firstChild.firstChild.firstChild." +
-                        "style.left=\'-1px\'; this.firstChild.firstChild.firstChild.style.top=\'-1px\';\" onmo" +
-                        "useout=\"this.firstChild.firstChild.firstChild.style.left=\'-19px\'; this.firstChil" +
-                        "d.firstChild.firstChild.style.top=\'-1px\';\" onclick=\"TopHelpButtonClick(\'HelpHome" +
-                        "\',event);return false\" href=\"../_catalogs/masterpage/#\"><span style=\"padding: 7p" +
-                        "x; width: 16px; height: 16px; overflow: hidden; display: inline-block;\"><span cl" +
-                        "ass=\"s4-clust\" style=\"width: 16px; height: 16px; overflow: hidden; display: inli" +
-                        "ne-block; position: relative;\"><img style=\"border: 0px currentColor; left: -19px" +
-                        "; top: -1px; position: absolute;\" alt=\"Справка\" src=\"/_layouts/15/1049/images/sp" +
-                        "intl.png?rev=23\"></span></span></a>\r\n</span>\r\n\t\t\t\t</div>\r\n                    <d" +
-                        "iv class=\"lk-box\">\r\n                        <div class=\"img\">\r\n                 " +
-                        "           <img src=\"img/face.png\" alt=\"\"></div>\r\n                        <div c" +
-                        "lass=\"tt\">\r\n                            <div class=\"hi\">Здравствуйте</div>\r\n    " +
-                        "                        <div class=\"name\"><a title=\"Открыть меню\" class=\"ms-core" +
-                        "-menu-root\" id=\"zz4_Menu\" accesskey=\"/\" onkeydown=\"MMU_EcbLinkOnKeyDown(byid(\'zz" +
-                        "1_ID_PersonalActionMenu\'), MMU_GetMenuFromClientId(\'zz4_Menu\'), event);\" onclick" +
-                        "=\" CoreInvoke(\'MMU_Open\',byid(\'zz1_ID_PersonalActionMenu\'), MMU_GetMenuFromClien" +
-                        "tId(\'zz4_Menu\'),event,true, null, 0); return false;\" onfocus=\"MMU_EcbLinkOnFocus" +
-                        "Blur(byid(\'zz1_ID_PersonalActionMenu\'), this, true);\" oncontextmenu=\"ClkElmt(thi" +
-                        "s); return false;\" href=\"javascript:;\" serverclientid=\"zz4_Menu\" menutokenvalues" +
-                        "=\"MENUCLIENTID=zz4_Menu,TEMPLATECLIENTID=zz1_ID_PersonalActionMenu\">Валентин Кри" +
-                        "тенко<span class=\"ms-accessible\">Для открытия меню воспользуйтесь сочетанием кла" +
-                        "виш SHIFT+ВВОД (в новом окне).</span></a></div>\r\n                        \r\n     " +
-                        "                   </div>\r\n                        <div class=\"drop-list\">\r\n    " +
-                        "                        <ul>\r\n                                <li><a href=\"\">Изм" +
-                        "енить</a></li>\r\n                                <li><a href=\"\">Выйти</a></li>\r\n " +
-                        "                           </ul>\r\n                        </div>\r\n              " +
-                        "      </div>\r\n                </div>\r\n                <div class=\"toggle_mnu\">\r\n" +
-                        "                    <span class=\"sandwich\">\r\n                        <span class" +
-                        "=\"sw-topper\"></span>\r\n                        <span class=\"sw-bottom\"></span>\r\n " +
-                        "                       <span class=\"sw-footer\"></span>\r\n                    </sp" +
-                        "an>\r\n                </div>\r\n                <ul class=\"nav\">\r\n                 " +
-                        "   <li><a href=\"\">Новости</a></li>\r\n                    <li><a href=\"\">Льготы</a" +
-                        "></li>\r\n                    <li><a href=\"\">Сервисы и документы</a></li>\r\n       " +
-                        "             <li><a href=\"\">Карьера</a></li>\r\n                    <li><a href=\"\"" +
-                        ">Наша жизнь</a></li>\r\n                    <li><a href=\"\">Справочник</a></li>\r\n  " +
-                        "                  <li><a href=\"\">Компания</a></li>\r\n                </ul>\r\n     " +
-                        "       </div>\r\n        </div>\r\n        <div class=\"main bg-white\">\r\n            " +
-                        "<div class=\"toping-box\">\r\n                <div class=\"container\">\r\n             " +
-                        "       <ul class=\"pagin\">\r\n                        <li><a href=\"\">Главная</a></l" +
-                        "i>\r\n                    </ul>\r\n                    <div class=\"title\">Редактиров" +
-                        "ание объявления</div>\r\n                </div>\r\n            </div>\r\n            <" +
-                        "div class=\"container\">\r\n                <div class=\"two-columns\">\r\n             " +
-                        "       <div class=\"row\">\r\n                        <div class=\"col-md-9 col-sm-12" +
-                        "\">\r\n                            <div class=\"content-box\">\r\n\r\n                   " +
-                        "             <div class=\"section-padding\">\r\n                                    " +
-                        "<form action=\"\" class=\"default-form edit-form\">\r\n                               " +
-                        "         <div class=\"row-inp\">\r\n                                            <p c" +
-                        "lass=\"label\">Заголовок</p>\r\n                                            <input t" +
-                        "ype=\"text\">\r\n                                        </div>\r\n                   " +
-                        "                     <div class=\"row-inp\">\r\n                                    " +
-                        "        <p class=\"label\">Категории</p>\r\n                                        " +
-                        "    <select class=\"cat-select\">\r\n                                               " +
-                        " <option value=\"\"></option>\r\n                                                <op" +
-                        "tion value=\"\">Категории</option>\r\n                                            </" +
-                        "select>\r\n                                        </div>\r\n                       " +
-                        "                 <div class=\"row-inp\">\r\n                                        " +
-                        "    <p class=\"label\">Описание</p>\r\n                                            <" +
-                        "textarea></textarea>\r\n                                        </div>\r\n          " +
-                        "                              <div class=\"row-inp\">\r\n                           " +
-                        "                 <p class=\"label\">Фотографии, не более 3</p>\r\n                  " +
-                        "                          <div class=\"file\">\r\n                                  " +
-                        "              <input id=\"file4\" type=\"file\" title=\"Загрузите фото\" />\r\n         " +
-                        "                                       <span class=\"file-input-text\">name.png</s" +
-                        "pan>\r\n                                            </div>\r\n                      " +
-                        "                  </div>\r\n                                        <div class=\"ro" +
-                        "w-inp\">\r\n                                            <p class=\"label\">Объявление" +
-                        " будет отправлено на модерацию</p>\r\n                                            " +
-                        "<input type=\"submit\" class=\"btn\" value=\"Сохранить\">\r\n                           " +
-                        "             </div>\r\n                                    </form>\r\n              " +
-                        "                  </div>\r\n\r\n                            </div>\r\n                " +
-                        "        </div>\r\n                        <div class=\"col-md-3 col-sm-12\">\r\n      " +
-                        "                      <div class=\"aside aside-moved-top\">\r\n                     " +
-                        "           <div class=\"aside-box news-archive\">\r\n                               " +
-                        "     <div class=\"aside-title title\">Объявление опубликовано</div>\r\n             " +
-                        "                       <ul class=\"month-list\">\r\n                                " +
-                        "        <li><a href=\"\">В архив</a></li>\r\n                                       " +
-                        " <li><a href=\"\">Удалить</a></li>\r\n                                    </ul>\r\n   " +
-                        "                             </div>\r\n                            </div>\r\n       " +
-                        "                 </div>\r\n                    </div>\r\n                </div>\r\n   " +
-                        "         </div>\r\n        </div>\r\n        <div class=\"footer footer-inner\">\r\n    " +
-                        "        <div class=\"container\">\r\n                <div class=\"row\">\r\n            " +
-                        "        <div class=\"col-sm-12\">\r\n                        <div class=\"wrap\">\r\n   " +
-                        "                         <div class=\"copy\">© 2018 РН Банк. Корпоративный портал " +
-                        "сотрудников банка.</div>\r\n                        </div>\r\n                    </" +
-                        "div>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n" +
-                        "\r\n    <!--[if lt IE 9]>\r\n\t<script src=\"libs/html5shiv/es5-shim.min.js\"></script>" +
-                        "\r\n\t<script src=\"libs/html5shiv/html5shiv.min.js\"></script>\r\n\t<script src=\"libs/h" +
-                        "tml5shiv/html5shiv-printshiv.min.js\"></script>\r\n\t<script src=\"libs/respond/respo" +
-                        "nd.min.js\"></script>\r\n\t<![endif]-->\r\n\r\n    <script src=\"http://sp-sql/sites/Home" +
-                        "/Verstka/libs/jquery/jquery-1.11.2.min.js\"></script>\r\n    <script src=\"http://sp" +
-                        "-sql/sites/Home/Verstka/libs/plugins-scroll/plugins-scroll.js\"></script>\r\n    <s" +
-                        "cript src=\"http://sp-sql/sites/Home/Verstka/js/owl.carousel.js\"></script>\r\n    <" +
-                        "script src=\"http://sp-sql/sites/Home/Verstka/js/jcf.js\"></script>\r\n    <script s" +
-                        "rc=\"http://sp-sql/sites/Home/Verstka/js/jcf.checkbox.js\"></script>\r\n    <script " +
-                        "src=\"http://sp-sql/sites/Home/Verstka/js/jcf.radio.js\"></script>\r\n    <script sr" +
-                        "c=\"http://sp-sql/sites/Home/Verstka/js/common.js\"></script>\r\n\r\n</body>\r\n</html>\r" +
-                        "\n"));
+                        "erstka/css/media.css\">\r\n    <script src=\"http://sp-sql/sites/Home/Verstka/libs/j" +
+                        "query/jquery-1.11.2.min.js\"></script>    \r\n    <script src=\"C:\\SharepointTest\\Te" +
+                        "st\\SHPUI\\Layouts\\SHPUI\\JS\\EditBilboard\\RightPanel\\BoardingModeration.js\"></scrip" +
+                        "t>\r\n</head>\r\n\r\n<body>\r\n    <div id=\"wrapper\">\r\n        <div class=\"header\">\r\n   " +
+                        "         <div class=\"container\">\r\n                <div class=\"top-line\">\r\n      " +
+                        "              <div class=\"logo\"><a href=\"\">\r\n                        <img src=\"i" +
+                        "mg/logo.svg\" alt=\"\"></a></div>\r\n                    <form action=\"\" class=\"searc" +
+                        "h-form\">\r\n                        <input type=\"text\" placeholder=\"Поиск\">\r\n     " +
+                        "                   <input type=\"submit\" value=\"\">\r\n                    </form>\r\n" +
+                        "                    <div id=\"suiteBarButtons\">\r\n\t\t\t\t\t   <span class=\"ms-siteacti" +
+                        "ons-root\" id=\"siteactiontd\">\r\n\t\t\t\t\t   \r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t<span style=\"display: none" +
+                        ";\"><menu id=\"zz5_SiteActionsMenuMain\" type=\"ServerMenu\" hideicons=\"true\"><ie:men" +
+                        "uitem id=\"zz6_MenuItem_ShareThisSite\" type=\"option\" menugroupid=\"100\" descriptio" +
+                        "n=\"Посмотреть, кто здесь находится, и пригласить новых участников.\" text=\"Совмес" +
+                        "тно с...\" onmenuclick=\"EnsureScriptFunc(\'sharing.js\', \'DisplaySharedWithDialog\'," +
+                        " function () { DisplaySharedWithDialog(\'\\u002fsites\\u002fHome\\u002f\'); })\" check" +
+                        "ed=\"false\" enabled=\"true\" onMenuClick_Original=\"EnsureScriptFunc(\'sharing.js\', \'" +
+                        "DisplaySharedWithDialog\', function () { DisplaySharedWithDialog(\'\\u002fsites\\u00" +
+                        "2fHome\\u002f\'); })\" text_Original=\"Совместно с...\" description_Original=\"Посмотр" +
+                        "еть, кто здесь находится, и пригласить новых участников.\" valOrig=\"&#10;&#9;\"></" +
+                        "ie:menuitem>\r\n\t<ie:menuitem id=\"ctl00_SiteActionsMenuMain_ctl00_MenuItem_EditPag" +
+                        "e\" type=\"option\" menugroupid=\"200\" description=\"Изменение контента этой страницы" +
+                        ".\" text=\"Изменение страницы\" onmenuclick=\"window.location = \'javascript:{EnsureS" +
+                        "criptParams(\\\'ribbon\\\', \\\'ChangeWikiPageMode\\\', true);}\';\" iconsrc=\"/_layouts/15" +
+                        "/images/ActionsEditPage.png?rev=23\" checked=\"false\" enabled=\"true\" onMenuClick_O" +
+                        "riginal=\"window.location = \'javascript:{EnsureScriptParams(\\\'ribbon\\\', \\\'ChangeW" +
+                        "ikiPageMode\\\', true);}\';\" text_Original=\"Изменение страницы\" description_Origina" +
+                        "l=\"Изменение контента этой страницы.\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:m" +
+                        "enuitem id=\"zz7_MenuItem_CreatePage\" type=\"option\" menugroupid=\"200\" description" +
+                        "=\"Создание страницы, которую можно настроить.\" text=\"Добавление страницы\" onmenu" +
+                        "click=\"OpenCreateWebPageDialog(\'\\u002fsites\\u002fHome\\u002f_layouts\\u002f15\\u002" +
+                        "fcreatewebpage.aspx\')\" iconsrc=\"/_layouts/15/images/NewContentPageHH.png?rev=23\"" +
+                        " checked=\"false\" enabled=\"true\" onMenuClick_Original=\"OpenCreateWebPageDialog(\'\\" +
+                        "u002fsites\\u002fHome\\u002f_layouts\\u002f15\\u002fcreatewebpage.aspx\')\" text_Origi" +
+                        "nal=\"Добавление страницы\" description_Original=\"Создание страницы, которую можно" +
+                        " настроить.\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz8_MenuItem_" +
+                        "Create\" type=\"option\" menugroupid=\"200\" description=\"Создание других типов стран" +
+                        "иц, списков, библиотек и сайтов.\" text=\"Добавить приложение\" onmenuclick=\"GoToPa" +
+                        "ge(\'\\u002fsites\\u002fHome\\u002f_layouts\\u002f15\\u002faddanapp.aspx\')\" checked=\"f" +
+                        "alse\" enabled=\"true\" onMenuClick_Original=\"GoToPage(\'\\u002fsites\\u002fHome\\u002f" +
+                        "_layouts\\u002f15\\u002faddanapp.aspx\')\" text_Original=\"Добавить приложение\" descr" +
+                        "iption_Original=\"Создание других типов страниц, списков, библиотек и сайтов.\" va" +
+                        "lOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz9_MenuItem_ViewAllSiteCont" +
+                        "ents\" type=\"option\" menugroupid=\"200\" description=\"Просмотр всех библиотек и спи" +
+                        "сков на данном сайте.\" text=\"Контент сайта\" onmenuclick=\"STSNavigate2(event,\'/si" +
+                        "tes/Home/_layouts/15/viewlsts.aspx\');\" iconsrc=\"/_layouts/15/images/allcontent32" +
+                        ".png?rev=23\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"STSNavigate2(e" +
+                        "vent,\'/sites/Home/_layouts/15/viewlsts.aspx\');\" text_Original=\"Контент сайта\" de" +
+                        "scription_Original=\"Просмотр всех библиотек и списков на данном сайте.\" valOrig=" +
+                        "\"&#10;&#9;\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz10_MenuItem_ChangeTheLook\" type=" +
+                        "\"option\" menugroupid=\"300\" description=\"Измените внешний вид сайта\" text=\"Измене" +
+                        "ние оформления\" onmenuclick=\"STSNavigate2(event,\'/sites/Home/_layouts/15/designg" +
+                        "allery.aspx\');\" checked=\"false\" enabled=\"true\" onMenuClick_Original=\"STSNavigate" +
+                        "2(event,\'/sites/Home/_layouts/15/designgallery.aspx\');\" text_Original=\"Изменение" +
+                        " оформления\" description_Original=\"Измените внешний вид сайта\" valOrig=\"&#10;&#9" +
+                        ";\"></ie:menuitem>\r\n\t<ie:menuitem id=\"zz11_MenuItem_Settings\" type=\"option\" menug" +
+                        "roupid=\"300\" description=\"Доступ ко всем параметрам этого сайта.\" text=\"Параметр" +
+                        "ы сайта\" onmenuclick=\"GoToPage(\'\\u002fsites\\u002fHome\\u002f_layouts\\u002f15\\u002" +
+                        "fsettings.aspx\')\" iconsrc=\"/_layouts/15/images/settingsIcon.png?rev=23\" checked=" +
+                        "\"false\" enabled=\"true\" onMenuClick_Original=\"GoToPage(\'\\u002fsites\\u002fHome\\u00" +
+                        "2f_layouts\\u002f15\\u002fsettings.aspx\')\" text_Original=\"Параметры сайта\" descrip" +
+                        "tion_Original=\"Доступ ко всем параметрам этого сайта.\" valOrig=\"&#10;&#9;\"></ie:" +
+                        "menuitem>\r\n\t<ie:menuitem id=\"ctl00_SiteActionsMenuMain_ctl00_ctl02\" type=\"option" +
+                        "\" menugroupid=\"2147483647\" description=\"Начало работы с сайтом.\" text=\"Приступая" +
+                        " к работе\" onmenuclick=\"STSNavigate2(event,\'/sites/Home/GettingStarted.aspx\');\" " +
+                        "checked=\"false\" enabled=\"true\" onMenuClick_Original=\"STSNavigate2(event,\'/sites/" +
+                        "Home/GettingStarted.aspx\');\" text_Original=\"Приступая к работе\" description_Orig" +
+                        "inal=\"Начало работы с сайтом.\" valOrig=\"&#10;&#9;\"></ie:menuitem>\r\n\t</menu></spa" +
+                        "n><span title=\"Параметры\" class=\"ms-siteactions-normal\" id=\"zz12_SiteActionsMenu" +
+                        "_t\" onmouseover=\"MMU_PopMenuIfShowing(this);MMU_EcbTableMouseOverOut(this, true)" +
+                        "\" onclick=\" CoreInvoke(\'MMU_Open\',byid(\'zz5_SiteActionsMenuMain\'), MMU_GetMenuFr" +
+                        "omClientId(\'zz12_SiteActionsMenu\'),event,true, null, 0); return false;\" oncontex" +
+                        "tmenu=\"ClkElmt(this); return false;\" foa=\"MMU_GetMenuFromClientId(\'zz12_SiteActi" +
+                        "onsMenu\')\" hoverinactive=\"ms-siteactions-normal\" hoveractive=\"ms-siteactions-nor" +
+                        "mal ms-siteactions-hover\"><a title=\"Параметры\" class=\"ms-core-menu-root\" id=\"zz1" +
+                        "2_SiteActionsMenu\" accesskey=\"/\" onkeydown=\"MMU_EcbLinkOnKeyDown(byid(\'zz5_SiteA" +
+                        "ctionsMenuMain\'), MMU_GetMenuFromClientId(\'zz12_SiteActionsMenu\'));\" href=\"javas" +
+                        "cript:;\" serverclientid=\"zz12_SiteActionsMenu\" menutokenvalues=\"MENUCLIENTID=zz1" +
+                        "2_SiteActionsMenu,TEMPLATECLIENTID=zz5_SiteActionsMenuMain\"><span class=\"ms-site" +
+                        "actions-imgspan\"><img title=\"Параметры\" class=\"ms-core-menu-buttonIcon\" alt=\"Пар" +
+                        "аметры\" src=\"/_layouts/15/images/spcommon.png?rev=23\"></span><span class=\"ms-acc" +
+                        "essible\">Для открытия меню воспользуйтесь сочетанием клавиш SHIFT+ВВОД (в новом " +
+                        "окне).</span></a></span></span>\r\n<span id=\"ms-help\">\r\n\t<a title=\"Справка\" id=\"ct" +
+                        "l00_TopHelpLink\" accesskey=\"6\" style=\"width: 30px; height: 30px; display: inline" +
+                        "-block;\" onmouseover=\"this.firstChild.firstChild.firstChild.style.left=\'-1px\'; t" +
+                        "his.firstChild.firstChild.firstChild.style.top=\'-1px\';\" onmouseout=\"this.firstCh" +
+                        "ild.firstChild.firstChild.style.left=\'-19px\'; this.firstChild.firstChild.firstCh" +
+                        "ild.style.top=\'-1px\';\" onclick=\"TopHelpButtonClick(\'HelpHome\',event);return fals" +
+                        "e\" href=\"../_catalogs/masterpage/#\"><span style=\"padding: 7px; width: 16px; heig" +
+                        "ht: 16px; overflow: hidden; display: inline-block;\"><span class=\"s4-clust\" style" +
+                        "=\"width: 16px; height: 16px; overflow: hidden; display: inline-block; position: " +
+                        "relative;\"><img style=\"border: 0px currentColor; left: -19px; top: -1px; positio" +
+                        "n: absolute;\" alt=\"Справка\" src=\"/_layouts/15/1049/images/spintl.png?rev=23\"></s" +
+                        "pan></span></a>\r\n</span>\r\n\t\t\t\t</div>\r\n                    <div class=\"lk-box\">\r\n" +
+                        "                        <div class=\"img\">\r\n                            <img src=" +
+                        "\"img/face.png\" alt=\"\"></div>\r\n                        <div class=\"tt\">\r\n        " +
+                        "                    <div class=\"hi\">Здравствуйте</div>\r\n                        " +
+                        "    <div class=\"name\"><a title=\"Открыть меню\" class=\"ms-core-menu-root\" id=\"zz4_" +
+                        "Menu\" accesskey=\"/\" onkeydown=\"MMU_EcbLinkOnKeyDown(byid(\'zz1_ID_PersonalActionM" +
+                        "enu\'), MMU_GetMenuFromClientId(\'zz4_Menu\'), event);\" onclick=\" CoreInvoke(\'MMU_O" +
+                        "pen\',byid(\'zz1_ID_PersonalActionMenu\'), MMU_GetMenuFromClientId(\'zz4_Menu\'),even" +
+                        "t,true, null, 0); return false;\" onfocus=\"MMU_EcbLinkOnFocusBlur(byid(\'zz1_ID_Pe" +
+                        "rsonalActionMenu\'), this, true);\" oncontextmenu=\"ClkElmt(this); return false;\" h" +
+                        "ref=\"javascript:;\" serverclientid=\"zz4_Menu\" menutokenvalues=\"MENUCLIENTID=zz4_M" +
+                        "enu,TEMPLATECLIENTID=zz1_ID_PersonalActionMenu\">Валентин Критенко<span class=\"ms" +
+                        "-accessible\">Для открытия меню воспользуйтесь сочетанием клавиш SHIFT+ВВОД (в но" +
+                        "вом окне).</span></a></div>\r\n                        \r\n                        <" +
+                        "/div>\r\n                        <div class=\"drop-list\">\r\n                        " +
+                        "    <ul>\r\n                                <li><a href=\"\">Изменить</a></li>\r\n    " +
+                        "                            <li><a href=\"\">Выйти</a></li>\r\n                     " +
+                        "       </ul>\r\n                        </div>\r\n                    </div>\r\n      " +
+                        "          </div>\r\n                <div class=\"toggle_mnu\">\r\n                    " +
+                        "<span class=\"sandwich\">\r\n                        <span class=\"sw-topper\"></span>" +
+                        "\r\n                        <span class=\"sw-bottom\"></span>\r\n                     " +
+                        "   <span class=\"sw-footer\"></span>\r\n                    </span>\r\n               " +
+                        " </div>\r\n                <ul class=\"nav\">\r\n                    <li><a href=\"\">Но" +
+                        "вости</a></li>\r\n                    <li><a href=\"\">Льготы</a></li>\r\n            " +
+                        "        <li><a href=\"\">Сервисы и документы</a></li>\r\n                    <li><a " +
+                        "href=\"\">Карьера</a></li>\r\n                    <li><a href=\"\">Наша жизнь</a></li>" +
+                        "\r\n                    <li><a href=\"\">Справочник</a></li>\r\n                    <l" +
+                        "i><a href=\"\">Компания</a></li>\r\n                </ul>\r\n            </div>\r\n     " +
+                        "   </div>\r\n        <div class=\"main bg-white\">\r\n            <div class=\"toping-b" +
+                        "ox\">\r\n                <div class=\"container\">\r\n                    <ul class=\"pa" +
+                        "gin\">\r\n                        <li><a href=\"\">Главная</a></li>\r\n                " +
+                        "    </ul>\r\n                    <div class=\"title\">Редактирование объявления</div" +
+                        ">\r\n                </div>\r\n            </div>\r\n            <div class=\"container" +
+                        "\">\r\n                <div class=\"two-columns\">\r\n                    <div class=\"r" +
+                        "ow\" id =\"RightPanel\">\r\n                        <div class=\"col-md-9 col-sm-12\">\r" +
+                        "\n                            <div class=\"content-box\">\r\n\r\n                      " +
+                        "          <div class=\"section-padding\">\r\n                                    <fo" +
+                        "rm action=\"\" class=\"default-form edit-form\">\r\n                                  " +
+                        "      <div class=\"row-inp\">\r\n                                            <p clas" +
+                        "s=\"label\">Заголовок</p>\r\n                                            <input type" +
+                        "=\"text\">\r\n                                        </div>\r\n                      " +
+                        "                  <div class=\"row-inp\">\r\n                                       " +
+                        "     <p class=\"label\">Категории</p>\r\n                                           " +
+                        " <select class=\"cat-select\">\r\n                                                <o" +
+                        "ption value=\"\"></option>\r\n                                                <optio" +
+                        "n value=\"\">Категории</option>\r\n                                            </sel" +
+                        "ect>\r\n                                        </div>\r\n                          " +
+                        "              <div class=\"row-inp\">\r\n                                           " +
+                        " <p class=\"label\">Описание</p>\r\n                                            <tex" +
+                        "tarea></textarea>\r\n                                        </div>\r\n             " +
+                        "                           <div class=\"row-inp\">\r\n                              " +
+                        "              <p class=\"label\">Фотографии, не более 3</p>\r\n                     " +
+                        "                       <div class=\"file\">\r\n                                     " +
+                        "           <input id=\"file4\" type=\"file\" title=\"Загрузите фото\" />\r\n            " +
+                        "                                    <span class=\"file-input-text\">name.png</span" +
+                        ">\r\n                                            </div>\r\n                         " +
+                        "               </div>\r\n                                        <div class=\"row-i" +
+                        "np\">\r\n                                            <p class=\"label\">Объявление бу" +
+                        "дет отправлено на модерацию</p>\r\n                                            <in" +
+                        "put type=\"submit\" class=\"btn\" value=\"Сохранить\">\r\n                              " +
+                        "          </div>\r\n                                    </form>\r\n                 " +
+                        "               </div>\r\n\r\n                            </div>\r\n                   " +
+                        "     </div>\r\n                    </div>\r\n                </div>\r\n            </d" +
+                        "iv>\r\n        </div>\r\n        <div class=\"footer footer-inner\">\r\n            <div" +
+                        " class=\"container\">\r\n                <div class=\"row\">\r\n                    <div" +
+                        " class=\"col-sm-12\">\r\n                        <div class=\"wrap\">\r\n               " +
+                        "             <div class=\"copy\">© 2018 РН Банк. Корпоративный портал сотрудников " +
+                        "банка.</div>\r\n                        </div>\r\n                    </div>\r\n      " +
+                        "          </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n\r\n    <!--[i" +
+                        "f lt IE 9]>\r\n\t<script src=\"libs/html5shiv/es5-shim.min.js\"></script>\r\n\t<script s" +
+                        "rc=\"libs/html5shiv/html5shiv.min.js\"></script>\r\n\t<script src=\"libs/html5shiv/htm" +
+                        "l5shiv-printshiv.min.js\"></script>\r\n\t<script src=\"libs/respond/respond.min.js\"><" +
+                        "/script>\r\n\t<![endif]-->\r\n\r\n    <script src=\"http://sp-sql/sites/Home/Verstka/lib" +
+                        "s/jquery/jquery-1.11.2.min.js\"></script>\r\n    <script src=\"http://sp-sql/sites/H" +
+                        "ome/Verstka/libs/plugins-scroll/plugins-scroll.js\"></script>\r\n    <script src=\"h" +
+                        "ttp://sp-sql/sites/Home/Verstka/js/owl.carousel.js\"></script>\r\n    <script src=\"" +
+                        "http://sp-sql/sites/Home/Verstka/js/jcf.js\"></script>\r\n    <script src=\"http://s" +
+                        "p-sql/sites/Home/Verstka/js/jcf.checkbox.js\"></script>\r\n    <script src=\"http://" +
+                        "sp-sql/sites/Home/Verstka/js/jcf.radio.js\"></script>\r\n    <script src=\"http://sp" +
+                        "-sql/sites/Home/Verstka/js/common.js\"></script>\r\n\r\n</body>\r\n</html>\r\n"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
