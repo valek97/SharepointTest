@@ -54,30 +54,6 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add-admin\Add-admin.ascx.cs">
-      <DependentUpon>Add-admin.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Add-admin\Add-admin.ascx.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Add-admin.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Add\Add.ascx.cs">
-      <DependentUpon>Add.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="Add\Add.ascx.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Add.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="AdsAdmins\AdsAdmins.ascx.cs">
-      <DependentUpon>AdsAdmins.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="AdsAdmins\AdsAdmins.ascx.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AdsAdmins.ascx</DependentUpon>
-    </Compile>
     <Compile Include="Ads\Ads.ascx.cs">
       <DependentUpon>Ads.ascx</DependentUpon>
     </Compile>
@@ -86,56 +62,32 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Ads.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Edit-admin\Edit-admin.ascx.cs">
-      <DependentUpon>Edit-admin.ascx</DependentUpon>
+    <Compile Include="CreateEditBulletinBoard\CreateEditBulletinBoard.ascx.cs">
+      <DependentUpon>CreateEditBulletinBoard.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Edit-admin\Edit-admin.ascx.g.cs">
+    <Compile Include="CreateEditBulletinBoard\CreateEditBulletinBoard.ascx.g.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Edit-admin.ascx</DependentUpon>
+      <DependentUpon>CreateEditBulletinBoard.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Edit\CreateEditBoardingNews.ascx.cs">
-      <DependentUpon>CreateEditBoardingNews.ascx</DependentUpon>
+    <Compile Include="mainBillboard\mainBillboard.ascx.cs">
+      <DependentUpon>mainBillboard.ascx</DependentUpon>
     </Compile>
-    <Compile Include="Edit\CreateEditBoardingNews.ascx.g.cs">
+    <Compile Include="mainBillboard\mainBillboard.ascx.g.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CreateEditBoardingNews.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="My-Add\My-Add.ascx.cs">
-      <DependentUpon>My-Add.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="My-Add\My-Add.ascx.g.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>My-Add.ascx</DependentUpon>
+      <DependentUpon>mainBillboard.ascx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Add-admin\Add-admin.webpart" />
-    <None Include="Add-admin\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{9cd2b4d6-8980-4929-a0b1-cf7e51624d0f}</SharePointProjectItemId>
-    </None>
-    <None Include="Add\Add.webpart" />
-    <None Include="Add\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{2cf5f04d-4023-43ff-be90-e1e225799632}</SharePointProjectItemId>
-    </None>
-    <None Include="AdsAdmins\AdsAdmins.webpart" />
-    <None Include="AdsAdmins\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{aee6b943-6c52-4227-9b6b-5b0de7a2b08d}</SharePointProjectItemId>
-    </None>
     <None Include="Ads\Ads.webpart" />
     <None Include="Ads\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{031695ee-fe67-4e39-a82e-738812f289dc}</SharePointProjectItemId>
     </None>
-    <None Include="Edit-admin\Edit-admin.webpart" />
-    <None Include="Edit-admin\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{21e2753a-ecdb-4bb7-9a9e-029e7f17e9aa}</SharePointProjectItemId>
-    </None>
-    <None Include="Edit\CreateEditBoardingNews.webpart" />
-    <None Include="Edit\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{566c14e8-0413-4952-923f-a49cb6996e11}</SharePointProjectItemId>
+    <None Include="CreateEditBulletinBoard\CreateEditBulletinBoard.webpart" />
+    <None Include="CreateEditBulletinBoard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f03a6f14-8af5-488e-9600-5ffe46a6487a}</SharePointProjectItemId>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
       <FeatureId>{e946c06c-6956-4bce-af74-eff2fbf6f283}</FeatureId>
@@ -144,9 +96,9 @@
     <None Include="Layouts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{53402ff3-188c-487e-ae6d-5ce2dbab521d}</SharePointProjectItemId>
     </None>
-    <None Include="My-Add\My-Add.webpart" />
-    <None Include="My-Add\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{0d27acc7-32e2-4ba0-92c2-be29fde69ddc}</SharePointProjectItemId>
+    <None Include="mainBillboard\mainBillboard.webpart" />
+    <None Include="mainBillboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5df6c0b6-9356-48a5-bf39-ee7e6b82b54c}</SharePointProjectItemId>
     </None>
     <None Include="Package\Package.package">
       <PackageId>{c6f20f39-477a-4b81-9529-d7d2dea52a7d}</PackageId>
@@ -157,39 +109,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Layouts\SHPUI\CSS\" />
-    <Folder Include="Layouts\SHPUI\JS\Billboard\Bulleten\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Add-admin\Add-admin.ascx">
-      <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>Add-admin.ascx.g.cs</LastGenOutput>
-    </Content>
-    <Content Include="Add-admin\Elements.xml" />
-    <Content Include="Add\Add.ascx">
-      <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>Add.ascx.g.cs</LastGenOutput>
-    </Content>
-    <Content Include="Add\Elements.xml" />
-    <Content Include="AdsAdmins\AdsAdmins.ascx">
-      <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>AdsAdmins.ascx.g.cs</LastGenOutput>
-    </Content>
-    <Content Include="AdsAdmins\Elements.xml" />
     <Content Include="Ads\Ads.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>Ads.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="Ads\Elements.xml" />
-    <Content Include="Edit-admin\Edit-admin.ascx">
+    <Content Include="CreateEditBulletinBoard\CreateEditBulletinBoard.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>Edit-admin.ascx.g.cs</LastGenOutput>
+      <LastGenOutput>CreateEditBulletinBoard.ascx.g.cs</LastGenOutput>
     </Content>
-    <Content Include="Edit-admin\Elements.xml" />
-    <Content Include="Edit\CreateEditBoardingNews.ascx">
-      <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>CreateEditBoardingNews.ascx.g.cs</LastGenOutput>
-    </Content>
-    <Content Include="Edit\Elements.xml" />
+    <Content Include="CreateEditBulletinBoard\Elements.xml" />
     <Content Include="Features\Feature1\Feature1.Template.xml">
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
@@ -202,10 +133,11 @@
     <Content Include="Layouts\SHPUI\JS\NewsText\RightBanner\BannerDefault.js" />
     <Content Include="Layouts\SHPUI\JS\NewsText\RightBanner\RightBannerOnModeration.js" />
     <Content Include="Layouts\SHPUI\JS\NewsText\RightBanner\RightBunnerPublicationNews.js" />
-    <Content Include="My-Add\Elements.xml" />
-    <Content Include="My-Add\My-Add.ascx">
+    <Content Include="Layouts\SHPUI\JS\TemplateAdvertisement\TemplateAdvertisement.js" />
+    <Content Include="mainBillboard\Elements.xml" />
+    <Content Include="mainBillboard\mainBillboard.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
-      <LastGenOutput>My-Add.ascx.g.cs</LastGenOutput>
+      <LastGenOutput>mainBillboard.ascx.g.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

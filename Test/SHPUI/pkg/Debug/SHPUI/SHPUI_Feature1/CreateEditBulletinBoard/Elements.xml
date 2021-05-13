@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="CreateEditBulletinBoard" List="113" Url="_catalogs/wp">
+    <File Path="CreateEditBulletinBoard\CreateEditBulletinBoard.webpart" Url="SHPUI_CreateEditBulletinBoard.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Veb News" />
+    </File>
+  </Module>
+</Elements>

@@ -29,6 +29,5 @@ $(document).ready(function () {
 
 ==123==;*/} addContent = addContent.toString().split('==123==;')[1].replace(/<\\\/script/gim, '<' + '/script');
 	var mess = addContent;
-	$("div.header").append("<li class='item'>Тест</li>");
 	$("div[class='main bg-white']").prepend(mess);
 });

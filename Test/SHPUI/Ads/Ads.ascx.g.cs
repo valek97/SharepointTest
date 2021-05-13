@@ -50,101 +50,79 @@ namespace SHPUI.Ads {
             "artCodeGenerator", "16.0.0.0")]
         private void @__BuildControlTree(global::SHPUI.Ads.Ads @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<!DOCTYPE html>\r\n<!--[if lt IE 7 ]><html class=\"ie ie6\" lang=\"en\"> <![endif]-->" +
-                        "\r\n<!--[if IE 7 ]><html class=\"ie ie7\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 8 ]><h" +
-                        "tml class=\"ie ie8\" lang=\"en\"> <![endif]-->\r\n<!--[if (gte IE 9)|!(IE)]><!--><html" +
-                        " lang=\"ru\"> <!--<![endif]-->\r\n\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<title>Заголов" +
-                        "ок</title>\r\n\t<meta name=\"description\" content=\"\">\r\n\r\n\t<meta http-equiv=\"X-UA-Com" +
-                        "patible\" content=\"IE=edge\">\r\n\t<meta name=\"viewport\" content=\"width=device-width," +
-                        " initial-scale=1, maximum-scale=1\">\r\n\t\r\n\t<link rel=\"stylesheet\" href=\"http://sp-" +
-                        "sql/sites/Home/Verstka/css/owl.carousel.min.css\">\r\n\t<link rel=\"stylesheet\" href=" +
-                        "\"http://sp-sql/sites/Home/Verstka/css/owl.theme.default.min.css\">\r\n\r\n\t<link rel=" +
-                        "\"stylesheet\" href=\"http://sp-sql/sites/Home/Verstka/libs/bootstrap/css/bootstrap" +
-                        "-grid.min.css\">\r\n\t<link href=\"https://fonts.googleapis.com/css?family=Roboto:300" +
-                        ",400,500,700,900&amp;subset=cyrillic,cyrillic-ext\" rel=\"stylesheet\">\r\n\t<link rel" +
-                        "=\"stylesheet\" href=\"http://sp-sql/sites/Home/Verstka/css/main.css\">\r\n\t<link rel=" +
-                        "\"stylesheet\" href=\"http://sp-sql/sites/Home/Verstka/css/media.css\">\r\n\t<script sr" +
-                        "c=\"http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js\"></script> " +
-                        "   \r\n    <script src=\"C:\\SharepointTest\\Test\\SHPUI\\Layouts\\SHPUI\\JS\\Billboard\\To" +
-                        "pMenuBulleten\\BillboardAdmin.js\"></script>\r\n</head>\r\n\r\n<body>\r\n<div id=\"wrapper\"" +
-                        ">\r\n\t<div class=\"header\">\r\n\t\t<div class=\"container\">\r\n\t\t\t<div class=\"top-line\">\r\n" +
-                        "\t\t\t\t<div class=\"logo\"><a href=\"\"><img src=\"http://sp-sql/sites/Home/Verstka/img/" +
-                        "logo.svg\" alt=\"\"></a></div>\r\n\t\t\t\t<form action=\"\" class=\"search-form\">\r\n\t\t\t\t\t<inp" +
-                        "ut type=\"text\" placeholder=\"Поиск\">\r\n\t\t\t\t\t<input type=\"submit\" value=\"\">\r\n\t\t\t\t</" +
-                        "form>\r\n\t\t\t\t<div class=\"lk-box\">\r\n\t\t\t\t\t<div class=\"img\"><img src=\"http://sp-sql/s" +
-                        "ites/Home/Verstka/img/face.png\" alt=\"\"></div>\r\n\t\t\t\t\t<div class=\"tt\">\r\n\t\t\t\t\t\t<div" +
-                        " class=\"hi\">Здравствуйте</div>\r\n\t\t\t\t\t\t<div class=\"name\">Виктория Николаевна</div" +
-                        ">\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class=\"drop-list\">\r\n\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t<li><a href=\"\">" +
-                        "Изменить</a></li>\r\n\t\t\t\t\t\t\t<li><a href=\"\">Выйти</a></li>\r\n\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t</div" +
-                        ">\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class=\"toggle_mnu\">\r\n\t\t\t\t<span class=\"sandwich" +
-                        "\">\r\n\t\t\t\t<span class=\"sw-topper\"></span>\r\n\t\t\t\t<span class=\"sw-bottom\"></span>\r\n\t\t" +
-                        "\t\t<span class=\"sw-footer\"></span>\r\n\t\t\t\t</span>\r\n\t\t\t</div>\r\n\t\t\t<ul class=\"nav\">\r\n" +
-                        "\t\t\t\t<li><a href=\"\">Новости</a></li>\r\n\t\t\t\t<li><a href=\"\">Льготы</a></li>\r\n\t\t\t\t<li" +
-                        "><a href=\"\">Сервисы и документы</a></li>\r\n\t\t\t\t<li><a href=\"\">Карьера</a></li>\r\n\t" +
-                        "\t\t\t<li><a href=\"\">Наша жизнь</a></li>\r\n\t\t\t\t<li><a href=\"\">Справочник</a></li>\r\n\t" +
-                        "\t\t\t<li><a href=\"\">Компания</a></li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n\t</div>\r\n\t<div class=\"m" +
-                        "ain bg-white\">\r\n\t\t\r\n\t\t<div class=\"container\">\r\n\t\t\t<div class=\"two-columns\">\r\n\t\t\t" +
-                        "\t<div class=\"row\">\r\n\t\t\t\t\t<div class=\"col-md-9 col-sm-12\">\r\n\t\t\t\t\t\t<div class=\"con" +
-                        "tent-box\">\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t<div class=\"news-box section-padding\">\r\n\t\t\t\t\t\t\t\t<div" +
-                        " class=\"news-item\">\r\n\t\t\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-sm-4 " +
-                        "col-xs-12\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"img\"><a href=\"\"><img src=\"http://sp-sql/site" +
-                        "s/Home/Verstka/img/news.png\" alt=\"\"></a></div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t<div" +
-                        " class=\"col-sm-8 col-xs-12\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"text\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div cl" +
-                        "ass=\"date date-bottom\">20 марта</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"status\">Сдам в ар" +
-                        "енду</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"name\"><a href=\"\">Победа в матче минифутболу " +
-                        "футболу среди команд Е лиги</a></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"ico-name\">\r\n\t\t\t\t\t" +
-                        "\t\t\t\t\t\t\t\t<a href=\"\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"ico\"><img src=\"http://sp-sql/sites" +
-                        "/Home/Verstka/img/face.png\" alt=\"\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"n\">Николай В" +
-                        "оложский</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t" +
-                        "\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div class=\"news-item\">\r\n\t\t" +
-                        "\t\t\t\t\t\t\t<div class=\"row\">\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-sm-4 col-xs-12\">\r\n\t\t\t\t\t\t\t\t\t\t" +
-                        "\t<div class=\"img\"><a href=\"\"><img src=\"http://sp-sql/sites/Home/Verstka/img/news" +
-                        ".png\" alt=\"\"></a></div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"col-sm-8 col-xs" +
-                        "-12\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"text\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"date date-bottom\">" +
-                        "20 марта</div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"status\">Сдам в аренду</div>\r\n\t\t\t\t\t\t\t\t\t\t\t" +
-                        "\t<div class=\"name\"><a href=\"\">Победа в матче минифутболу футболу среди команд Е " +
-                        "лиги</a></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"ico-name\">\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<a href=\"\">\r\n\t\t" +
-                        "\t\t\t\t\t\t\t\t\t\t\t<div class=\"ico\"><img src=\"http://sp-sql/sites/Home/Verstka/img/face." +
-                        "png\" alt=\"\"></div>\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"n\">Николай Воложский</div>\r\n\t\t\t\t\t\t\t" +
-                        "\t\t\t\t\t\t</a>\r\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</" +
-                        "div>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t<div class=\"pager\">\r\n\t\t\t\t\t\t\t\t\t<ul>\r\n\t\t\t\t\t\t\t\t\t\t<li " +
-                        "class=\"active\"><a href=\"\">1</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">2</a></li>\r\n\t\t\t\t\t" +
-                        "\t\t\t\t\t<li><a href=\"\">3</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">4</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<" +
-                        "li><a href=\"\">5</a></li>\r\n\t\t\t\t\t\t\t\t\t\t<li><a href=\"\">Следующая ></a></li>\r\n\t\t\t\t\t\t\t" +
-                        "\t\t</ul>\r\n\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div c" +
-                        "lass=\"col-md-3 col-sm-12\">\r\n\t\t\t\t\t\t<div class=\"aside aside-moved-top\">\r\n\t\t\t\t\t\t\t<d" +
-                        "iv class=\"aside-box fast-links\">\r\n\t\t\t\t\t\t\t\t<div class=\"aside-title title\">Быстрые" +
-                        " ссылки</div>\r\n\t\t\t\t\t\t\t\t<ul class=\"list\">\r\n\t\t\t\t\t\t\t\t\t<li><a href=\"\">Анонсы</a></li" +
-                        ">\r\n\t\t\t\t\t\t\t\t\t<li><a href=\"\">Оргструктура</a></li>\r\n\t\t\t\t\t\t\t\t\t<li><a href=\"\">Онлайн" +
-                        " библиотека</a></li>\r\n\t\t\t\t\t\t\t\t\t<li><a href=\"\">Объявления</a></li>\r\n\t\t\t\t\t\t\t\t</ul>" +
-                        "\r\n\t\t\t\t\t\t\t\t<a href=\"\" class=\"like\">Скажи спасибо</a>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t<div " +
-                        "class=\"aside-box birthday-box\">\r\n\t\t\t\t\t\t\t\t<div class=\"aside-title title\">Ближайши" +
-                        "е дни рождения</div>\r\n\t\t\t\t\t\t\t\t<ul class=\"list\">\r\n\t\t\t\t\t\t\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t<div c" +
-                        "lass=\"img\"><a href=\"\"><img src=\"http://sp-sql/sites/Home/Verstka/img/face.png\" a" +
-                        "lt=\"\"></a></div>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"tt\">\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"date\">26 ма" +
-                        "рта</div>\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"name\"><a href=\"\">Анна Ефремова</a></div>\r\n\t\t\t\t" +
-                        "\t\t\t\t\t\t\t<div class=\"fah\">Дизайнер</div>\r\n\t\t\t\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t" +
-                        "\t\t\t<li>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"img\"><a href=\"\"><img src=\"http://sp-sql/sites/Hom" +
-                        "e/Verstka/img/face.png\" alt=\"\"></a></div>\r\n\t\t\t\t\t\t\t\t\t\t<div class=\"tt\">\r\n\t\t\t\t\t\t\t\t\t" +
-                        "\t\t<div class=\"date\">26 марта</div>\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"name\"><a href=\"\">Анна" +
-                        " Ефремова</a></div>\r\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"fah\">Дизайнер</div>\r\n\t\t\t\t\t\t\t\t\t\t</div" +
-                        ">\r\n\t\t\t\t\t\t\t\t\t</li>\r\n\t\t\t\t\t\t\t\t</ul>\r\n\t\t\t\t\t\t\t\t<a href=\"\" class=\"more-link\">Показать " +
-                        "больше</a>\r\n\t\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t<" +
-                        "/div>\r\n\t</div>\r\n\t<div class=\"footer footer-inner\">\r\n\t\t<div class=\"container\">\r\n\t" +
-                        "\t\t<div class=\"row\">\r\n\t\t\t\t<div class=\"col-sm-12\">\r\n\t\t\t\t\t<div class=\"wrap\">\r\n\t\t\t\t\t" +
-                        "\t<div class=\"copy\">© 2018 РН Банк. Корпоративный портал сотрудников банка.</div>" +
-                        "\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n\r\n\r\n\t<!--[if lt" +
-                        " IE 9]>\r\n\t<script src=\"libs/html5shiv/es5-shim.min.js\"></script>\r\n\t<script src=\"" +
-                        "libs/html5shiv/html5shiv.min.js\"></script>\r\n\t<script src=\"libs/html5shiv/html5sh" +
-                        "iv-printshiv.min.js\"></script>\r\n\t<script src=\"libs/respond/respond.min.js\"></scr" +
-                        "ipt>\r\n\t<![endif]-->\r\n\r\n\t<script src=\"http://sp-sql/sites/Home/Verstka/libs/jquer" +
-                        "y/jquery-1.11.2.min.js\"></script>\r\n\t<script src=\"http://sp-sql/sites/Home/Verstk" +
-                        "a/libs/plugins-scroll/plugins-scroll.js\"></script>\r\n\t<script src=\"http://sp-sql/" +
-                        "sites/Home/Verstka/js/owl.carousel.js\"></script>\r\n\t<script src=\"http://sp-sql/si" +
-                        "tes/Home/Verstka/js/jcf.js\"></script>\r\n\t<script src=\"http://sp-sql/sites/Home/Ve" +
-                        "rstka/js/jcf.checkbox.js\"></script>\r\n\t<script src=\"http://sp-sql/sites/Home/Vers" +
-                        "tka/js/jcf.radio.js\"></script>\r\n\t<script src=\"http://sp-sql/sites/Home/Verstka/j" +
-                        "s/common.js\"></script>\r\n\t\r\n</body>\r\n</html>"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<!DOCTYPE html>\n<!--[if lt IE 7 ]><html class=\"ie ie6\" lang=\"en\"> <![endif]-->\n" +
+                        "<!--[if IE 7 ]><html class=\"ie ie7\" lang=\"en\"> <![endif]-->\n<!--[if IE 8 ]><html" +
+                        " class=\"ie ie8\" lang=\"en\"> <![endif]-->\n<!--[if (gte IE 9)|!(IE)]><!--><html lan" +
+                        "g=\"ru\"> <!--<![endif]-->\n\n<head>\n\t<meta charset=\"utf-8\">\n\t<title>Заголовок</titl" +
+                        "e>\n\t<meta name=\"description\" content=\"\">\n\n\t<meta http-equiv=\"X-UA-Compatible\" co" +
+                        "ntent=\"IE=edge\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-sca" +
+                        "le=1, maximum-scale=1\">\n\t\n\t<link rel=\"stylesheet\" href=\"http://sp-sql/sites/Home" +
+                        "/Verstka/css/owl.carousel.min.css\">\n\t<link rel=\"stylesheet\" href=\"http://sp-sql/" +
+                        "sites/Home/Verstka/css/owl.theme.default.min.css\">\n\n\t<link rel=\"stylesheet\" href" +
+                        "=\"http://sp-sql/sites/Home/Verstka/libs/bootstrap/css/bootstrap-grid.min.css\">\n\t" +
+                        "<link href=\"https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&a" +
+                        "mp;subset=cyrillic,cyrillic-ext\" rel=\"stylesheet\">\n\t<link rel=\"stylesheet\" href=" +
+                        "\"http://sp-sql/sites/Home/Verstka/css/main.css\">\n\t<link rel=\"stylesheet\" href=\"h" +
+                        "ttp://sp-sql/sites/Home/Verstka/css/media.css\">\n\t\t<script src=\"http://sp-sql/sit" +
+                        "es/Home/Verstka/libs/jquery/jquery-1.11.2.min.js\"></script>\n\t<script src=\"C:\\Sha" +
+                        "repointTest\\Test\\SHPUI\\Layouts\\SHPUI\\JS\\NewsText\\RightBanner\\RightBunnerPublicat" +
+                        "ionNews.js\"></script>\n\n</head>\n\n<body>\n<div id=\"wrapper\">\n\t<div class=\"header\">\n" +
+                        "\t\t<div class=\"container\">\n\t\t\t<div class=\"top-line\">\n\t\t\t\t<div class=\"logo\"><a hre" +
+                        "f=\"\"><img src=\"http://sp-sql/sites/Home/Verstka/img/logo.svg\" alt=\"\"></a></div>\n" +
+                        "\t\t\t\t<form action=\"\" class=\"search-form\">\n\t\t\t\t\t<input type=\"text\" placeholder=\"По" +
+                        "иск\">\n\t\t\t\t\t<input type=\"submit\" value=\"\">\n\t\t\t\t</form>\n\t\t\t\t<div class=\"lk-box\">\n\t" +
+                        "\t\t\t\t<div class=\"img\"><img src=\"http://sp-sql/sites/Home/Verstka/img/face.png\" al" +
+                        "t=\"\"></div>\n\t\t\t\t\t<div class=\"tt\">\n\t\t\t\t\t\t<div class=\"hi\">Здравствуйте</div>\n\t\t\t\t\t" +
+                        "\t<div class=\"name\">Виктория Николаевна</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"drop-l" +
+                        "ist\">\n\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<li><a href=\"\">Изменить</a></li>\n\t\t\t\t\t\t\t<li><a href=\"\">В" +
+                        "ыйти</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"toggle" +
+                        "_mnu\">\n\t\t\t\t<span class=\"sandwich\">\n\t\t\t\t<span class=\"sw-topper\"></span>\n\t\t\t\t<span" +
+                        " class=\"sw-bottom\"></span>\n\t\t\t\t<span class=\"sw-footer\"></span>\n\t\t\t\t</span>\n\t\t\t</" +
+                        "div>\n\t\t\t<ul class=\"nav\">\n\t\t\t\t<li><a href=\"\">Новости</a></li>\n\t\t\t\t<li><a href=\"\">" +
+                        "Льготы</a></li>\n\t\t\t\t<li><a href=\"\">Сервисы и документы</a></li>\n\t\t\t\t<li><a href=" +
+                        "\"\">Карьера</a></li>\n\t\t\t\t<li><a href=\"\">Наша жизнь</a></li>\n\t\t\t\t<li><a href=\"\">Сп" +
+                        "равочник</a></li>\n\t\t\t\t<li><a href=\"\">Компания</a></li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>" +
+                        "\n\t<div class=\"main bg-white\">\n\t\t<div class=\"toping-box\">\n\t\t\t<div class=\"containe" +
+                        "r\">\n\t\t\t\t<ul class=\"pagin\">\n\t\t\t\t\t<li><a href=\"\">Главная</a></li>\n\t\t\t\t\t<li><a href" +
+                        "=\"\">Кредитный департамент</a></li>\n\t\t\t\t\t<li><a href=\"\">Кредитный департамент</a>" +
+                        "</li>\n\t\t\t\t</ul>\n\t\t\t\t<div class=\"title\">Сдам 3-х комнатную квартиру на долгий сро" +
+                        "к. Без детей. 35 000 руб./месяц</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"container" +
+                        "\">\n\t\t\t<div class=\"two-columns\">\n\t\t\t\t<div class=\"row\" id =\"RightBanner\">\n\t\t\t\t\t<di" +
+                        "v class=\"col-md-9 col-sm-12\">\n\t\t\t\t\t\t<div class=\"content-box\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<di" +
+                        "v class=\"desk-item-box section-padding\">\n\t\t\t\t\t\t\t\t<div class=\"hh\">\n\t\t\t\t\t\t\t\t\t<div " +
+                        "class=\"date\">20 марта · Сдам в аренду</div>\n\t\t\t\t\t\t\t\t\t<div class=\"who\">\n\t\t\t\t\t\t\t\t\t" +
+                        "\t<a href=\"\">\n\t\t\t\t\t\t\t\t\t\t<div class=\"img\"><img src=\"http://sp-sql/sites/Home/Verst" +
+                        "ka/img/face.png\" alt=\"\"></div>\n\t\t\t\t\t\t\t\t\t\t<div class=\"name\">Анна Ефремова</div>\n\t" +
+                        "\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t<div class=\"row desk-photos" +
+                        "\">\n\t\t\t\t\t\t\t\t\t<div class=\"col-sm-4 col-xs-12\">\n\t\t\t\t\t\t\t\t\t\t<a rel=\"lightbox[gallery1" +
+                        "]\" title=\"Image 1 title\" href=\"http://sp-sql/sites/Home/Verstka/img/1.png\"><img " +
+                        "src=\"http://sp-sql/sites/Home/Verstka/img/1.png\" alt=\"\"></a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t" +
+                        "\t\t\t\t\t\t<div class=\"col-sm-4 col-xs-12\">\n\t\t\t\t\t\t\t\t\t\t<a rel=\"lightbox[gallery1]\" tit" +
+                        "le=\"Image 1 title\" href=\"http://sp-sql/sites/Home/Verstka/img/1.png\"><img src=\"h" +
+                        "ttp://sp-sql/sites/Home/Verstka/img/1.png\" alt=\"\"></a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t" +
+                        "<div class=\"col-sm-4 col-xs-12\">\n\t\t\t\t\t\t\t\t\t\t<a rel=\"lightbox[gallery1]\" title=\"Im" +
+                        "age 1 title\" href=\"http://sp-sql/sites/Home/Verstka/img/1.png\"><img src=\"http://" +
+                        "sp-sql/sites/Home/Verstka/img/1.png\" alt=\"\"></a>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n" +
+                        "\t\t\t\t\t\t\t\t<div class=\"text\">\n\t\t\t\t\t\t\t\t\t<p>Я являюсь экспертом по банковским продукт" +
+                        "ам более пяти лет, последние три года исследую банковские карты. Мои профессиона" +
+                        "льные знания и навыки крайне полезны в повседневной жизни, так как от использова" +
+                        "ния своей собственной карты я стараюсь получить максимум пользы.</p>\n\t\t\t\t\t\t\t\t\t<a" +
+                        " href=\"\" class=\"link\">Написать Анне</a>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t</di" +
+                        "v>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\t<div class=\"footer f" +
+                        "ooter-inner\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col" +
+                        "-sm-12\">\n\t\t\t\t\t<div class=\"wrap\">\n\t\t\t\t\t\t<div class=\"copy\">© 2018 РН Банк. Корпора" +
+                        "тивный портал сотрудников банка.</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>" +
+                        "\n\t</div>\n</div>\n\n\n\t<!--[if lt IE 9]>\n\t<script src=\"libs/html5shiv/es5-shim.min.j" +
+                        "s\"></script>\n\t<script src=\"libs/html5shiv/html5shiv.min.js\"></script>\n\t<script s" +
+                        "rc=\"libs/html5shiv/html5shiv-printshiv.min.js\"></script>\n\t<script src=\"libs/resp" +
+                        "ond/respond.min.js\"></script>\n\t<![endif]-->\n\n\t<script src=\"http://sp-sql/sites/H" +
+                        "ome/Verstka/libs/jquery/jquery-1.11.2.min.js\"></script>\n\t<script src=\"http://sp-" +
+                        "sql/sites/Home/Verstka/libs/plugins-scroll/plugins-scroll.js\"></script>\n\t<script" +
+                        " src=\"http://sp-sql/sites/Home/Verstka/js/owl.carousel.js\"></script>\n\t<script sr" +
+                        "c=\"http://sp-sql/sites/Home/Verstka/js/jcf.js\"></script>\n\t<script src=\"http://sp" +
+                        "-sql/sites/Home/Verstka/js/jcf.checkbox.js\"></script>\n\t<script src=\"http://sp-sq" +
+                        "l/sites/Home/Verstka/js/jcf.radio.js\"></script>\n\t<script src=\"http://sp-sql/site" +
+                        "s/Home/Verstka/js/common.js\"></script>\n\t\n</body>\n</html>"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

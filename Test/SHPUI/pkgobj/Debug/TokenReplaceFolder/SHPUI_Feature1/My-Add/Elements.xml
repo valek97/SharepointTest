@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
-  <Module Name="My-Add" List="113" Url="_catalogs/wp">
-    <File Path="My-Add\My-Add.webpart" Url="SHPUI_My-Add.webpart" Type="GhostableInLibrary" >
-      <Property Name="Group" Value="Veb News" />
-    </File>
-  </Module>
-</Elements>
