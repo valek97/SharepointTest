@@ -54,15 +54,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
+    <None Include="packages.config" />
     <None Include="Package\Package.package">
       <PackageId>{de69c471-8a37-4aa6-af80-142888f1ebdd}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="Scripts\jquery-3.6.0.min.map" />
+    <None Include="Scripts\jquery-3.6.0.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

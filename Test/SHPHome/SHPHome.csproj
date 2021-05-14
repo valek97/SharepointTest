@@ -69,12 +69,15 @@
       <FeatureId>{288e30fa-e5aa-4da5-afc8-5932416a415d}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="packages.config" />
     <None Include="Package\Package.package">
       <PackageId>{fdc3bb63-5005-4e93-88a8-45b77c13f8b3}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="Scripts\jquery-3.6.0.min.map" />
+    <None Include="Scripts\jquery-3.6.0.slim.min.map" />
     <None Include="StatusDashboardingNews\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{0faef56d-95ba-461b-ba09-b77d6112edfd}</SharePointProjectItemId>
     </None>
@@ -92,6 +95,11 @@
     <Content Include="Features\Feature2\Feature2.Template.xml">
       <DependentUpon>Feature2.feature</DependentUpon>
     </Content>
+    <Content Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="StatusDashboardingNews\Elements.xml" />
     <Content Include="StatusDashboardingNews\Schema.xml" />
     <Content Include="StatusDashboardingNews\StatusDashboardingNewsInstance\Elements.xml" />

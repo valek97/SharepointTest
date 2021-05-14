@@ -169,3 +169,4 @@ C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.csproj.CoreCompileInputs.cache
 C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.csproj.CopyComplete
 C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.dll
 C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.pdb
+C:\SharepointTest\Test\SHPHome\obj\Debug\SHPHome.csprojAssemblyReference.cache

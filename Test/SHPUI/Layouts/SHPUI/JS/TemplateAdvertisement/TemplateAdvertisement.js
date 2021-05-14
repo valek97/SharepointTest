@@ -1,5 +1,21 @@
-﻿
+
 $(document).ready(function () {
+	var CountBillboard = 2;
+	function getDataBillboard() {
+
+		$.ajax({
+			url: _spPageContextInfo.webAbsoluteUrl +"/_api/web/lists/getbyTitle('Объявления')/items?$Select=ID,Title, Body, Date1, Text,  Status/Title&$expand=Status",
+			type: "GET",
+			headers: {"accept":"application/json;odata=verbose"},
+			datatype: "json",
+			success: function(data){
+				console.log(data.Title);
+			},
+			error: function (err) {
+				alert(JSON.stringify(err))
+			}
+		});
+    }
 	function addContent() { /*==123==;
 
 <div class="news-item">
@@ -9,9 +25,9 @@ $(document).ready(function () {
 		</div>
 		<div class="col-sm-8 col-xs-12">
 			<div class="text">
-				<div class="date date-bottom">20 марта</div>
+				<div class="date date-bottom"></div>
 				<div class="status"></div>
-				<div class="name"><a href="">Победа в матче минифутболу футболу среди команд Е лиги</a></div>
+				<div class="name"></div>
 				<div class="ico-name">
 					<a href="">
 						<div class="ico"><img src="http://sp-sql/sites/Home/Verstka/img/face.png" alt=""></div>
@@ -25,21 +41,26 @@ $(document).ready(function () {
 
 ==123==;*/} addContent = addContent.toString().split('==123==;')[1].replace(/<\\\/script/gim, '<' + '/script');
 	function addHTMLContent() {
+		var d = new Date;
 		$('.news-item').each(function (i) {
 			(this).setAttribute('data-id', (i + 1))
 		})
-		
-		
+		for (var i = 0; i < CountBillboard; i++) {
+		$("div[data-id=" +(i+1) + "]").find("div[class='status']").prepend('Тест заголовок ' + (i+1));
+			$("div[data-id=" + (i + 1) + "]").find("div[class='name']").prepend('<a href="">Тест заголовка объявления ' + (i + 1) + '</a>');
+			$("div[data-id=" + (i + 1) + "]").find("div[class='date date-bottom']").prepend('Дата ' + d.toLocaleDateString());
+		}
 	}
 	
 	var mess = addContent;
 	
-	var CountBillboard = 2;
+	
 	for (var i = 0; i < CountBillboard; i++) {
 		$("div[class = 'news-box section-padding']").prepend(mess);	
 	}
 	addHTMLContent();
-	var a = '345';
-	var div = 'asdas ' + a + 'adsad ';
-	$("div[class='status']").prepend(div);
+	//$("div[data-id=1]").find("div[class='status']").prepend('asdasdasdad');
+	//var a = '345';
+	//var div = 'asdas ' + a + 'adsad ';
+	//$("div[class='status']").prepend(div);
 });

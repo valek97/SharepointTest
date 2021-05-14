@@ -100,12 +100,15 @@
     <None Include="mainBillboard\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{5df6c0b6-9356-48a5-bf39-ee7e6b82b54c}</SharePointProjectItemId>
     </None>
+    <None Include="packages.config" />
     <None Include="Package\Package.package">
       <PackageId>{c6f20f39-477a-4b81-9529-d7d2dea52a7d}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="Scripts\jquery-3.6.0.min.map" />
+    <None Include="Scripts\jquery-3.6.0.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Layouts\SHPUI\CSS\" />
@@ -139,6 +142,11 @@
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>mainBillboard.ascx.g.cs</LastGenOutput>
     </Content>
+    <Content Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
