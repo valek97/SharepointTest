@@ -19,7 +19,7 @@
     <title>Заголовок</title>
     <meta name="description" content="">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/owl.carousel.min.css">
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/main.css">
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/media.css">
     <script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>    
-    <script src="C:\SharepointTest\Test\SHPUI\Layouts\SHPUI\JS\EditBilboard\RightPanel\BoardingModeration.js"></script>
+    <script src="http://sp-sql/sites/Home/Verstka/Layouts/SHPUI/JS/EditBilboard/RightPanel/BoardingModeration.js"></script>
 </head>
 
 <body>
@@ -169,7 +169,9 @@
 	<![endif]-->
 
     <script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>
+    <!-- 
     <script src="http://sp-sql/sites/Home/Verstka/libs/plugins-scroll/plugins-scroll.js"></script>
+    -->
     <script src="http://sp-sql/sites/Home/Verstka/js/owl.carousel.js"></script>
     <script src="http://sp-sql/sites/Home/Verstka/js/jcf.js"></script>
     <script src="http://sp-sql/sites/Home/Verstka/js/jcf.checkbox.js"></script>

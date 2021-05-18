@@ -83,3 +83,4 @@ C:\SharepointTest\Test\SHPUI\obj\Debug\SHPUI.csproj.CoreCompileInputs.cache
 C:\SharepointTest\Test\SHPUI\obj\Debug\SHPUI.csproj.CopyComplete
 C:\SharepointTest\Test\SHPUI\obj\Debug\SHPUI.dll
 C:\SharepointTest\Test\SHPUI\obj\Debug\SHPUI.pdb
+C:\SharepointTest\Test\SHPUI\obj\Debug\SHPUI.csprojAssemblyReference.cache

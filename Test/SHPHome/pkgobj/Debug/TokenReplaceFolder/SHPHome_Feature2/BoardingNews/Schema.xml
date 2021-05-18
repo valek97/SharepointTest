@@ -4,12 +4,12 @@
     <ContentTypes>
       
       
-    <ContentType ID="0x01002039d93140404a49aaf65a6d2130c94f" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{5e212865-ffb6-42eb-b4ce-1d3cfe2055ad}" Name="Category1" /><FieldRef ID="{08d09632-33c3-4a27-bb4a-c94470453ad7}" Name="Date1" /><FieldRef ID="{c6465c3d-f3da-41a5-92e6-8542549d6785}" Name="Text" /><FieldRef ID="{d26dd01d-ee46-4086-aec8-a666c19638b2}" Name="Status" /><FieldRef ID="{721bf71d-c24c-45c1-9701-5b951e387da6}" Name="Photo" /><FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+    <ContentType ID="0x01002039d93140404a49aaf65a6d2130c94f" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{5e212865-ffb6-42eb-b4ce-1d3cfe2055ad}" Name="Category1" /><FieldRef ID="{c6465c3d-f3da-41a5-92e6-8542549d6785}" Name="Text" /><FieldRef ID="{d26dd01d-ee46-4086-aec8-a666c19638b2}" Name="Status" /><FieldRef ID="{721bf71d-c24c-45c1-9701-5b951e387da6}" Name="Photo" /><FieldRef ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
         <Folder TargetName="Item" />
       </ContentTypeRef><ContentTypeRef ID="0x0120" /><ContentTypeRef ID="0x0110" /></ContentTypes>
     <Fields>
       
-    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Category1" ID="{5e212865-ffb6-42eb-b4ce-1d3cfe2055ad}" DisplayName="Категория" Type="Lookup" List="Lists/CategoriesNews" ShowField="Title" /><Field Name="Date1" ID="{08d09632-33c3-4a27-bb4a-c94470453ad7}" DisplayName="Создано" Type="DateTime" Format="DateOnly" /><Field Name="Text" ID="{c6465c3d-f3da-41a5-92e6-8542549d6785}" DisplayName="Текст новости" Type="Text" Hidden="TRUE" /><Field Name="Status" ID="{d26dd01d-ee46-4086-aec8-a666c19638b2}" DisplayName="Статус" Type="Lookup" List="Lists/StatusDashboardingNews" ShowField="Title" Hidden="FALSE" /><Field Name="Photo" ID="{721bf71d-c24c-45c1-9701-5b951e387da6}" DisplayName="Фото" Type="URL" /><Field ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Body" Group="_Hidden" Type="Note" RichText="FALSE" IsolateStyles="TRUE" DisplayName="$Resources:core,Body;" Sortable="FALSE" NumLines="15" /></Fields>
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Category1" ID="{5e212865-ffb6-42eb-b4ce-1d3cfe2055ad}" DisplayName="Категория" Type="Lookup" List="Lists/CategoriesNews" ShowField="Title" /><Field Name="Text" ID="{c6465c3d-f3da-41a5-92e6-8542549d6785}" DisplayName="Текст новости" Type="Text" Hidden="TRUE" /><Field Name="Status" ID="{d26dd01d-ee46-4086-aec8-a666c19638b2}" DisplayName="Статус" Type="Lookup" List="Lists/StatusDashboardingNews" ShowField="Title" Hidden="FALSE" /><Field Name="Photo" ID="{721bf71d-c24c-45c1-9701-5b951e387da6}" DisplayName="Фото" Type="URL" /><Field ID="{7662cd2c-f069-4dba-9e35-082cf976e170}" Name="Body" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Body" Group="_Hidden" Type="Note" RichText="FALSE" IsolateStyles="TRUE" DisplayName="$Resources:core,Body;" Sortable="FALSE" NumLines="15" /></Fields>
     <Views>
       
       
@@ -37,7 +37,7 @@
         <RowLimit Paged="TRUE">30</RowLimit>
         <ViewFields>
           
-        <FieldRef Name="Category1" /><FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Author" /><FieldRef Name="Date1" /><FieldRef Name="Status" /><FieldRef Name="Editor" /><FieldRef Name="Photo" /><FieldRef Name="Body" /></ViewFields>
+        <FieldRef Name="Category1" /><FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="Created" /><FieldRef Name="Author" /><FieldRef Name="Status" /><FieldRef Name="Editor" /><FieldRef Name="Photo" /><FieldRef Name="Body" /></ViewFields>
         <Query>
           <OrderBy>
             

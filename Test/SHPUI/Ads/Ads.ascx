@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/main.css">
 	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/media.css">
 		<script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>
-	<script src="C:\SharepointTest\Test\SHPUI\Layouts\SHPUI\JS\NewsText\RightBanner\RightBunnerPublicationNews.js"></script>
+	<script src="http://sp-sql/sites/Home/Verstka/Layouts/SHPUI/JS/NewsText/RightBanner/RightBunnerPublicationNews.js"></script>
 
 </head>
 
@@ -148,7 +148,9 @@
 
 	<script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="http://sp-sql/sites/Home/Verstka/libs/plugins-scroll/plugins-scroll.js"></script>
+	<!-- 
 	<script src="http://sp-sql/sites/Home/Verstka/js/owl.carousel.js"></script>
+		-->
 	<script src="http://sp-sql/sites/Home/Verstka/js/jcf.js"></script>
 	<script src="http://sp-sql/sites/Home/Verstka/js/jcf.checkbox.js"></script>
 	<script src="http://sp-sql/sites/Home/Verstka/js/jcf.radio.js"></script>

@@ -4,14 +4,15 @@ $(document).ready(function () {
 	function getDataBillboard() {
 
 		$.ajax({
-			url: "/_api/web/lists/getbyTitle('Объявления')/items?$Select=ID,Title, Body, Date1, Text,  Status/Title&$expand=Status",
-			method: "GET",
-			headers:{"accept":"application/json;odata=verbose"},
-			success: function (data) {
-				console.log(data);
+			url: _spPageContextInfo.webAbsoluteUrl +"/_api/web/lists/getbyTitle('Объявления')/items?$Select=ID,Title, Body, Date1, Text,  Status/Title&$expand=Status",
+			type: "GET",
+			headers: {"accept":"application/json;odata=verbose"},
+			datatype: "json",
+			success: function(data){
+				console.log(data.d.Title);
 			},
-			error: function (xhr) {
-				console.log(xhr.status + ': ' + xhr.statusText);
+			error: function (err) {
+				alert(JSON.stringify(err))
 			}
 		});
     }
