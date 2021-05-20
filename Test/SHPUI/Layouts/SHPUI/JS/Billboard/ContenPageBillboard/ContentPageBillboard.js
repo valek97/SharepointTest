@@ -1,5 +1,4 @@
-$(document).ready(function () {
-
+﻿$(document).ready(function () {
     var h = (window.location.search);
     var urlParams = new URLSearchParams(h);
     var prodId = urlParams.get('pageId');
@@ -13,17 +12,12 @@ $(document).ready(function () {
             headers: { "accept": "application/json;odata=verbose" },
             datatype: "json",
             success: function (data) {
-                console.log("Запрос выполнен");
-                //console.log(data.d.results);
                 result = data;
                 value = data.d.results;
-
-                //value = data.response;
             },
             error: function (err) {
                 alert(JSON.stringify(err))
             }
-
         });
         return result;
     }
@@ -69,10 +63,8 @@ $(document).ready(function () {
     function getCorrectTime(time) {
         let months = [' января', ' февраля', ' марта', ' апреля', ' мая', ' июня', ' июля', ' августа', ' сентября', ' октября', ' ноября', ' декабря'];
         var newDate = new Date(time);
-        console.log(newDate.getDate() + months[newDate.getMonth()]);
         return newDate.getDate() + months[newDate.getMonth()];
     }
-
     var mess = addContent;
     $("div#RightBanner").prepend(mess);
     $("div[class = 'col-md-9 col-sm-12']").find("div[class='text']").append('<p>' + bill.d.results[prodId].Body + '</p>');

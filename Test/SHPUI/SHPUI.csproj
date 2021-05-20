@@ -128,6 +128,8 @@
       <DependentUpon>Feature1.feature</DependentUpon>
     </Content>
     <Content Include="Layouts\SHPUI\JS\Ads-admin\Ads-Admin.js" />
+    <Content Include="Layouts\SHPUI\JS\Billboard\ContenPageBillboard\ContentPageBillboard.js" />
+    <Content Include="Layouts\SHPUI\JS\Billboard\TopingBoxText\TopingBoxText.js" />
     <Content Include="Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardAdmin.js" />
     <Content Include="Layouts\SHPUI\JS\Billboard\TopMenuBulleten\BillboardDefault.js" />
     <Content Include="Layouts\SHPUI\JS\EditBilboard\RightPanel\BoardingModeration.js" />

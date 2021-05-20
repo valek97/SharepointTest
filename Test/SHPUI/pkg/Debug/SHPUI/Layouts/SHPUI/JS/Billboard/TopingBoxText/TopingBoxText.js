@@ -1,4 +1,4 @@
-
+﻿
 $(document).ready(function () {
 	var h = (window.location.search );
 	console.log(h);

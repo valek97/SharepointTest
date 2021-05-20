@@ -22,14 +22,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/owl.carousel.min.css">
+    <script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script> 
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/owl.theme.default.min.css">
 
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/libs/bootstrap/css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/main.css">
     <link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/media.css">
-    <script src="http://sp-sql/sites/Home/Verstka/libs/jquery/jquery-1.11.2.min.js"></script>    
+   
     <script src="http://sp-sql/sites/Home/Verstka/Layouts/SHPUI/JS/EditBilboard/RightPanel/BoardingModeration.js"></script>
 </head>
 
@@ -172,7 +172,6 @@
     <!-- 
     <script src="http://sp-sql/sites/Home/Verstka/libs/plugins-scroll/plugins-scroll.js"></script>
     -->
-    <script src="http://sp-sql/sites/Home/Verstka/js/owl.carousel.js"></script>
     <script src="http://sp-sql/sites/Home/Verstka/js/jcf.js"></script>
     <script src="http://sp-sql/sites/Home/Verstka/js/jcf.checkbox.js"></script>
     <script src="http://sp-sql/sites/Home/Verstka/js/jcf.radio.js"></script>

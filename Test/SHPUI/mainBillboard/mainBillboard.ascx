@@ -20,7 +20,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	
-	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="http://sp-sql/sites/Home/Verstka/libs/bootstrap/css/bootstrap-grid.min.css">
@@ -161,7 +160,7 @@
 	<!-- 
 	<script src="http://sp-sql/sites/Home/Verstka/libs/plugins-scroll/plugins-scroll.js"></script>
 	-->
-	<script src="http://sp-sql/sites/Home/Verstka/js/owl.carousel.js"></script>
+	<!--<script src="http://sp-sql/sites/Home/Verstka/js/owl.carousel.js"></script>-->
 	<script src="http://sp-sql/sites/Home/Verstka/js/jcf.js"></script>
 	<script src="http://sp-sql/sites/Home/Verstka/js/jcf.checkbox.js"></script>
 	<script src="http://sp-sql/sites/Home/Verstka/js/jcf.radio.js"></script>

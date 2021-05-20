@@ -1,46 +1,19 @@
+﻿
 $(document).ready(function () {
-
-    var h = (window.location.search);
-    var urlParams = new URLSearchParams(h);
-    var prodId = urlParams.get('pageId');
-    var bill = getDataBillboard();
-    function getDataBillboard() {
-        var result = null;
-        $.ajax({
-            url: _spPageContextInfo.webAbsoluteUrl + "/_api/web/lists/getbyTitle('Объявления')/items?$Select=ID,Title, Body, Text, Created, Author/Title, Status/Title, Category1/Title &$expand= Status,Category1,Author",
-            type: "GET",
-            async: false,
-            headers: { "accept": "application/json;odata=verbose" },
-            datatype: "json",
-            success: function (data) {
-                console.log("Запрос выполнен");
-                //console.log(data.d.results);
-                result = data;
-                value = data.d.results;
-
-                //value = data.response;
-            },
-            error: function (err) {
-                alert(JSON.stringify(err))
-            }
-
-        });
-        return result;
-    }
-    function addContent() { /*==123==;
+	function addContent() { /*==123==;
 
 <div class="col-md-9 col-sm-12">
                             <div class="content-box">
 
                                 <div class="desk-item-box section-padding">
                                     <div class="hh">
-                                        <div class="date"></div>
+                                        <div class="date">20 марта · Сдам в аренду</div>
                                         <div class="who">
                                             <a href="">
                                                 <div class="img">
                                                     <img src="http://sp-sql/sites/Home/Verstka/img/face.png" alt="">
                                                 </div>
-                                                <div class="name"></div>
+                                                <div class="name">Анна Ефремова</div>
                                             </a>
                                         </div>
                                     </div>
@@ -59,6 +32,8 @@ $(document).ready(function () {
                                         </div>
                                     </div>
                                     <div class="text">
+                                        <p>Я являюсь экспертом по банковским продуктам более пяти лет, последние три года исследую банковские карты. Мои профессиональные знания и навыки крайне полезны в повседневной жизни, так как от использования своей собственной карты я стараюсь получить максимум пользы.</p>
+                                        <a href="" class="link">Написать Анне</a>
                                     </div>
                                 </div>
 
@@ -66,17 +41,9 @@ $(document).ready(function () {
                         </div>
 
 ==123==;*/} addContent = addContent.toString().split('==123==;')[1].replace(/<\\\/script/gim, '<' + '/script');
-    function getCorrectTime(time) {
-        let months = [' января', ' февраля', ' марта', ' апреля', ' мая', ' июня', ' июля', ' августа', ' сентября', ' октября', ' ноября', ' декабря'];
-        var newDate = new Date(time);
-        console.log(newDate.getDate() + months[newDate.getMonth()]);
-        return newDate.getDate() + months[newDate.getMonth()];
-    }
-
-    var mess = addContent;
-    $("div#RightBanner").prepend(mess);
-    $("div[class = 'col-md-9 col-sm-12']").find("div[class='text']").append('<p>' + bill.d.results[prodId].Body + '</p>');
-    $("div[class = 'col-md-9 col-sm-12']").find("div[class='text']").append('<a href="" class="link">Написать ' + (bill.d.results[prodId].Author.Title + '</a>'));
-    $("div[class = 'col-md-9 col-sm-12']").find("div[class='date']").append(getCorrectTime(bill.d.results[prodId].Created) + ' ' + bill.d.results[prodId].Category1.Title);
-    $("div[class = 'col-md-9 col-sm-12']").find("div[class='name']").append(bill.d.results[prodId].Author.Title);
+	var mess = addContent;
+	for (var i = 0; i < CountBillboard; i++) {
+		$("div#RightBanner").prepend(mess);
+	}
+	addHTMLContent();
 });
